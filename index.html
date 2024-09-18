@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="tela_inicial/default/css/style.css" />
   <script language="javascript">
 
-    var uc = "TQU UC9" // aqui vai a sigla do curso e o numero da uc
+    var uc = "TQUUC9" // aqui vai a sigla do curso e o numero da uc
   </script>
   <!--[if gte mso 9
       ]><xml>
@@ -47,8 +47,7 @@
         </div>
         <div class="col-xs-12 col-lg-10">
           <h1>Técnico em Qualidade</h1>
-          <h2>Título da UC</h2>
-
+          <h2>Auxiliar a implementação e manutenção de modelos e sistemas de gestão</h2>
         </div>
         <div class="col-xs-12">
           <h4>
@@ -63,23 +62,21 @@
                     <li>
                       <h6 class="dropdown-header">Semana 1</h6>
                     </li>
-                    <!--
-                          Para imagens linkadas em um tópico onde estas estiverem em um diretorio diferente do padrão configurado no print2.js, devemos informar em qual pasta em que estão
-                          as imagens(a pasta dentro do diretorio do topico, a partir da raiz do mesmo) utilizando a atributo data-imgpath="<nome da pasta>" no botão ou link que irá fazer
-                          a chamada para o print. conforme o exemplo abaixo
-                          <li><a class="dropdown-item imprimir" href="#" data-conteudo="01_recursos_basicos" data-imgpath="img">Recursos básicos</a></li>
-
-                          caso o arquivo que deseja imprimir em uma pasta de conteudo nao seja index.html, podemos usar o atributo data-startpoint para passar o nome do arquivo
-                          que deve ser aberto no print, por exemplo:
-                          <a class="dropdown-item imprimir" href="#" data-conteudo="01_recursos_basicos" data-imgpath="img" data-startpoint="teste.html">Recursos básicos</a>
-                      -->
-                    <li><a class="dropdown-item imprimir" href="#" data-conteudo="01">01</a></li>
-                    <li><a class="dropdown-item imprimir" href="#" data-conteudo="02">02</a></li>
-                    <li><a class="dropdown-item imprimir" href="#" data-conteudo="03">03</a></li>
-                    <li><a class="dropdown-item imprimir" href="#" data-conteudo="04">04</a></li>
-                    <!-- <li role="separator" class="divider"></li>
-                      <li><h6 class="dropdown-header">Semana 2</h6></li>
-                      <li><a class="dropdown-item" href="#">...</a></li> -->
+                    <li><a class="dropdown-item imprimir" href="#" data-conteudo="01">Modelos e sistemas de gestão</a>
+                    </li>
+                    <li role="separator" class="divider"></li>
+                    <li>
+                      <h6 class="dropdown-header">Semana 2 e 3</h6>
+                    </li>
+                    <li><a class="dropdown-item imprimir" href="#" data-conteudo="02">Modelos de gestão</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li>
+                      <h6 class="dropdown-header">Semana 4</h6>
+                    </li>
+                    <li><a class="dropdown-item imprimir" href="#" data-conteudo="03">Normas ISO 9001, 14001 e 45001</a>
+                    </li>
+                    <li><a class="dropdown-item imprimir" href="#" data-conteudo="04">Certificações de sistemas de
+                        gestão</a></li>
                     <li role="separator" class="divider"></li>
                     <li><a class="dropdown-item imprimir" href="#" data-conteudo="05">Referências</a></li>
                   </ul>
@@ -91,32 +88,20 @@
       </div>
     </div>
   </header>
-
   <div class="container grupos">
-    <!-- 
-			Uma div grupo contém os links de conteúdos de uma semana na UC, caso o curso
-		tenha mais semanas, basta criar uma nova estrutura de grupo colocando um novo id (grupo6, por exemplo), se tiver menos semanas, basta excluir os grupos excedentes 
-	     -->
-
     <!-- grupo 1 -->
     <div class="row">
       <div class="col-lg-12">
         <h2>1ª Semana</h2>
       </div>
     </div>
-
     <div class="row grupo" data-group="grupo1">
       <h3 class="hidden-lg hidden-md">A Fazer</h3>
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 drag-column">
         <h3 class="visible-lg visible-md">A Fazer</h3>
-
         <ul class="drag-inner-list" id="1" data-index="lista-fazer">
-          <!--
-						exemplo de conteúdo em uma semana, cada link de conteúdo é um li
-					    dentro de uma ul, sempre posicionados na lista-fazer inicialmente
-				     -->
           <li class="drag-item fazer" data-item="link1" data-bs-toggle="tooltip" data-placement="top">
-            <a href="01/index.html" target="_blank" class="link">01</a>
+            <a href="01/index.html" target="_blank" class="link">Modelos e sistemas de gestão</a>
             <button class="btPrint imprimir" title="Imprimir o conteúdo" data-conteudo="01">Imprimir</button>
             <div class="dropdown dropdown-bubble">
               <a id="dLabel" data-bs-toggle="dropdown" data-bs-display="static" aria-haspopup="true"
@@ -131,8 +116,37 @@
               </ul>
             </div>
           </li>
+        </ul>
+        <div class="mao">
+          <img src="tela_inicial/assets/ico_mao.png" class="img-responsive" />
+        </div>
+      </div>
+      <h3 class="hidden-lg hidden-md">Sendo Feito</h3>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 drag-column drag-column-in-progress">
+        <h3 class="visible-lg visible-md">Sendo Feito</h3>
+        <ul class="drag-inner-list" id="2" data-index="lista-fazendo"></ul>
+      </div>
+      <h3 class="hidden-lg hidden-md">Feito</h3>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 drag-column">
+        <h3 class="visible-lg visible-md">Feito</h3>
+        <div class="setinha"></div>
+        <div class="exemplo"></div>
+        <ul class="drag-inner-list" id="3" data-index="lista-feito"></ul>
+      </div>
+    </div>
+    <!-- grupo 2 e 3 -->
+    <div class="row">
+      <div class="col-lg-12">
+        <h2>2ª e 3ª Semana</h2>
+      </div>
+    </div>
+    <div class="row grupo" data-group="grupo2">
+      <h3 class="hidden-lg hidden-md">A Fazer</h3>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 drag-column">
+        <h3 class="visible-lg visible-md">A Fazer</h3>
+        <ul class="drag-inner-list" id="4" data-index="lista-fazer">
           <li class="drag-item fazer" data-item="link2" data-bs-toggle="tooltip" data-placement="top">
-            <a href="02/index.html" target="_blank" class="link">02</a>
+            <a href="02/index.html" target="_blank" class="link">Modelos de gestão</a>
             <button class="btPrint imprimir" title="Imprimir o conteúdo" data-conteudo="02">Imprimir</button>
             <div class="dropdown dropdown-bubble">
               <a id="dLabel" data-bs-toggle="dropdown" data-bs-display="static" aria-haspopup="true"
@@ -147,8 +161,37 @@
               </ul>
             </div>
           </li>
-          <li class="drag-item fazer" data-item="link3" data-bs-toggle="tooltip" data-placement="top">
-            <a href="03/index.html" target="_blank" class="link">03</a>
+        </ul>
+        <div class="mao">
+          <img src="tela_inicial/assets/ico_mao.png" class="img-responsive" />
+        </div>
+      </div>
+      <h3 class="hidden-lg hidden-md">Sendo Feito</h3>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 drag-column drag-column-in-progress">
+        <h3 class="visible-lg visible-md">Sendo Feito</h3>
+        <ul class="drag-inner-list" id="5" data-index="lista-fazendo"></ul>
+      </div>
+      <h3 class="hidden-lg hidden-md">Feito</h3>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 drag-column">
+        <h3 class="visible-lg visible-md">Feito</h3>
+        <div class="setinha"></div>
+        <div class="exemplo"></div>
+        <ul class="drag-inner-list" id="6" data-index="lista-feito"></ul>
+      </div>
+    </div>
+    <!-- grupo 4 -->
+    <div class="row">
+      <div class="col-lg-12">
+        <h2>4ª Semana</h2>
+      </div>
+    </div>
+    <div class="row grupo" data-group="grupo3">
+      <h3 class="hidden-lg hidden-md">A Fazer</h3>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 drag-column">
+        <h3 class="visible-lg visible-md">A Fazer</h3>
+        <ul class="drag-inner-list" id="7" data-index="lista-fazer">
+          <li class="drag-item fazer" data-item="link4" data-bs-toggle="tooltip" data-placement="top">
+            <a href="03/index.html" target="_blank" class="link">Normas ISO 9001, 14001 e 45001</a>
             <button class="btPrint imprimir" title="Imprimir o conteúdo" data-conteudo="03">Imprimir</button>
             <div class="dropdown dropdown-bubble">
               <a id="dLabel" data-bs-toggle="dropdown" aria-haspopup="true" data-bs-display="static"
@@ -164,7 +207,7 @@
             </div>
           </li>
           <li class="drag-item fazer" data-item="link4" data-bs-toggle="tooltip" data-placement="top">
-            <a href="04/index.html" target="_blank" class="link">04</a>
+            <a href="04/index.html" target="_blank" class="link">Certificações de sistemas de gestão</a>
             <button class="btPrint imprimir" title="Imprimir o conteúdo" data-conteudo="04">Imprimir</button>
             <div class="dropdown dropdown-bubble">
               <a id="dLabel" data-bs-toggle="dropdown" aria-haspopup="true" data-bs-display="static"
@@ -184,61 +227,19 @@
           <img src="tela_inicial/assets/ico_mao.png" class="img-responsive" />
         </div>
       </div>
-
       <h3 class="hidden-lg hidden-md">Sendo Feito</h3>
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 drag-column drag-column-in-progress">
         <h3 class="visible-lg visible-md">Sendo Feito</h3>
-        <ul class="drag-inner-list" id="2" data-index="lista-fazendo"></ul>
+        <ul class="drag-inner-list" id="8" data-index="lista-fazendo"></ul>
       </div>
       <h3 class="hidden-lg hidden-md">Feito</h3>
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 drag-column">
         <h3 class="visible-lg visible-md">Feito</h3>
         <div class="setinha"></div>
         <div class="exemplo"></div>
-        <ul class="drag-inner-list" id="3" data-index="lista-feito"></ul>
+        <ul class="drag-inner-list" id="9" data-index="lista-feito"></ul>
       </div>
     </div>
-    <!-- grupo 1 -->
-
-    <!-- grupo 2 -->
-    <!-- <div class="row">
-        <div class="col-lg-12">
-          <h2>2ª Semana</h2>
-        </div>
-      </div>
-
-      <div class="row grupo" data-group="grupo1">
-        <h3 class="hidden-lg hidden-md">A Fazer</h3>
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 drag-column">
-          <h3 class="visible-lg visible-md">A FAZER</h3>
-
-          <ul class="drag-inner-list" id="1" data-index="lista-fazer">
-            
-            
-          </ul>
-          <div class="mao">
-            <img src="tela_inicial/assets/ico_mao.png" class="img-responsive" />
-          </div>
-        </div>
-
-        <h3 class="hidden-lg hidden-md">SENDO FEITO</h3>
-        <div
-          class="col-xs-12 col-sm-12 col-md-12 col-lg-4 drag-column drag-column-in-progress"
-        >
-          <h3 class="visible-lg visible-md">SENDO FEITO</h3>
-          <ul class="drag-inner-list" id="2" data-index="lista-fazendo"></ul>
-        </div>
-        <h3 class="hidden-lg hidden-md">FEITO</h3>
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 drag-column">
-          <h3 class="visible-lg visible-md">FEITO</h3>
-          <div class="setinha"></div>
-          <div class="exemplo"></div>
-          <ul class="drag-inner-list" id="3" data-index="lista-feito"></ul>
-        </div>
-      </div> -->
-    <!-- grupo 2 -->
-
-
     <div class="row">
       <div class="col-lg-2 pull-left text-right margin50" style="padding-left: 0">
         <a href="05/index.html" target="_blank" class="referencias ui-link" title="Referências" role="button"><img
@@ -248,7 +249,6 @@
         <a href="" class="voltar-topo" role="button" title="Voltar ao topo"></a>
       </div>
     </div>
-
     <div class="modal fade" id="modal-id">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -269,8 +269,6 @@
   </div>
   <div class="circulo-3"></div>
   <div class="circulo-4"></div>
-
-
   <!-- partial -->
   <script src="tela_inicial/default/js/jquery.min.js"></script>
 
