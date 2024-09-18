@@ -1,6 +1,6 @@
 $(function (){
-    var erro = new Audio("../assets/atividades/relacionar_colunas/erro.mp3");
-    var acerto = new Audio("../assets/atividades/relacionar_colunas/acerto.mp3");
+    var erro = new Audio("../../assets/atividades/relacionar_colunas/erro.mp3");
+    var acerto = new Audio("../../assets/atividades/relacionar_colunas/acerto.mp3");
     $(".resp, .item").click(function (){
         $(this).toggleClass("selecionado");
 

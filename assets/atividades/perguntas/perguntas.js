@@ -1,4 +1,4 @@
-var snd_path = "../assets/atividades/perguntas/snd/"
+var snd_path = "../../assets/atividades/perguntas/snd/"
 
 
 var FXManager = {
