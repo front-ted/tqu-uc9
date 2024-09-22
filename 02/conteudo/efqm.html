@@ -3,7 +3,7 @@
 
 <head>
     <!-- Inserir o tíutlo do conhecimento na tag title -->
-    <title></title>
+    <title>Modelo EFQM (Fundação Europeia para a Gestão da Qualidade)</title>
     <!-- Meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -52,6 +52,130 @@
         <section class="paginas">
             <div class="pagina">
                 <div class="container">
+                    <h2>Modelo EFQM (Fundação Europeia para a Gestão da Qualidade)</h2>
+                    <p>O modelo <b>EFQM (European Foundation for Quality Management ou, em português, Fundação Europeia
+                            para a
+                            Gestão da Qualidade)</b> é uma estrutura de gerenciamento globalmente reconhecida que, apoia
+                        as
+                        organizações no gerenciamento de mudanças e na melhoria do desempenho. Como <b>principal
+                            intenção de
+                            desenvolvimento desse modelo</b> nas organizações está uma <b>cultura de inovação e
+                            melhoria</b>.</p>
+                    <div class="grafismo">
+                        <div class="destaque borda-colorida icone atencao">
+                            <p>O modelo EFQM tem o objetivo de definir um propósito forte, inspirar líderes a todos os
+                                níveis e criar uma cultura comprometida em impulsionar o desempenho, mantendo-se ágil,
+                                adaptável e capaz de evoluir para o futuro. </p>
+                        </div>
+                    </div>
+                    <p>A próxima imagem apresenta a estrutura do modelo EFQM, que contém três direcionamentos principais
+                        que perpassam pela organização: direção, resultados e execução. </p>
+                    <figure class="my-5">
+                        <div class="figure-img mx-auto mb-4">
+                            <img class="img-fluid d-block borda-colorida mx-auto"
+                                src="https://img.freepik.com/fotos-gratis/espaco-de-trabalho-organizado-e-organizado-com-laptop_23-2148592327.jpg?w=996&amp;t=st=1686326062~exp=1686326662~hmac=fcac1a0ab6bd3ecd8a894650de3e7d7370b6390ba70fc2567df51352d4f3036f">
+                        </div>
+                        <figcaption class="figure-caption text-center">
+                            Modelo EFQM: estrutura
+                            <br>
+                            Fonte: EFQM (2019, p. 4)
+                        </figcaption>
+                        <p class="no-print sr-only"></p>
+                    </figure>
+                    <p>Note que cada um dos direcionamentos contém <b>critérios de implementação/avaliação</b>. Direção
+                        une
+                        propósito, visão e estratégia a uma cultura organizacional e liderança. Execução contempla o
+                        envolvimento das partes interessadas, a criação de valor sustentável e a condução do desempenho
+                        e da
+                        transformação. Resultados incluem as percepções das partes interessadas e o desempenho
+                        estratégico
+                        operacional. Além disso, envolvendo os elementos direção e execução estão abordagem,
+                        desdobramento,
+                        avaliação e refinamento, e envolvendo os resultados estão relevância, utilidade e desempenho.
+                    </p>
+                    <p>De acordo com a EFQM (2019, p. 9), a estrutura do modelo EFQM é baseada na lógica simples de três
+                        perguntas:</p>
+                    <div class="painel3 no-print" aria-hidden="true">
+                        <p><button type="button" class="botao hvr-sweep-to-right visitado" data-bs-toggle="popover"
+                                title="" data-bs-content="Por que esta
+                                organização existe? Que propósito cumpre? Por que esta estratégia em particular?
+                                Essa pergunta demonstra a <b>direção</b>." data-bs-html="true" data-bs-original-title="<b>Por
+                                    quê?</b>" aria-describedby="popover506314"><b>Por
+                                    quê?</b></button></p>
+
+                        <p><button type="button" class="botao hvr-sweep-to-right visitado" data-bs-toggle="popover"
+                                title="" data-bs-content="Como a
+                                organização pretende cumprir seu propósito e sua estratégia? Essa pergunta demonstra a
+                                <b>execução</b>." data-bs-html="true" data-bs-original-title="<b>Como?</b>"
+                                aria-describedby="popover506314"><b>Como?</b></button></p>
+
+                        <p><button type="button" class="botao hvr-sweep-to-right visitado" data-bs-toggle="popover"
+                                title="" data-bs-content="O que ela
+                                realmente alcançou até o momento? O que pretende alcançar amanhã? Essa pergunta
+                                demonstra os <b>resultados</b>." data-bs-html="true" data-bs-original-title="<b>O
+                                    quê?</b>" aria-describedby="popover506314"><b>O
+                                    quê?</b></button></p>
+
+                    </div>
+                    <div class="only-print sr-only">
+                        <h4><b>Por quê?</b></h4>
+                        <p>Por que esta organização existe? Que propósito cumpre? Por que esta estratégia em particular?
+                            Essa pergunta demonstra a <b>direção</b>.</p>
+                        <h4><b>Como?</b></h4>
+                        <p>Como a organização pretende cumprir seu propósito e sua estratégia? Essa pergunta demonstra a
+                            <b>execução</b>.
+                        </p>
+                        <h4><b>O quê?</b></h4>
+                        <p>O que ela realmente alcançou até o momento? O que pretende alcançar amanhã? Essa pergunta
+                            demonstra os <b>resultados</b>.</p>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -98,6 +222,27 @@
 
         $(function () {
             $("body").prognroll();
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            // Inicializa os popovers
+            $('[data-bs-toggle="popover"]').popover({
+                trigger: 'manual' // Define o trigger como manual
+            }).on('click', function (e) {
+                // Previne o fechamento do popover ao clicar no botão
+                e.stopPropagation();
+                // Fecha outros popovers
+                $('[data-bs-toggle="popover"]').not(this).popover('hide');
+                // Toggle o popover do botão clicado
+                $(this).popover('toggle');
+            });
+
+            // Fecha os popovers ao clicar fora deles
+            $(document).on('click', function () {
+                $('[data-bs-toggle="popover"]').popover('hide');
+            });
         });
     </script>
 
