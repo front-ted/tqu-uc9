@@ -1,1 +1,272 @@
 @charset "utf-8";
+
+/* INICIO BLOCOS */
+.bloco1 {
+    background: url(../../01/img/BG1.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bloco2 {
+    background: url(../../01/img/BG2.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bloco3 {
+    background: url(../../01/img/BG3.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bloco4 {
+    background: url(../../01/img/BG4.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.bloco5 {
+    background: url(../../01/img/BG5.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* fim BLOCOS */
+
+/* INICIO TUDO RELACIONADO AO PARALLAX */
+.bloco-paralax-top {
+    height: 40px;
+    background: url(../../01/img/parallax_div_topo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bloco-paralax-bottom {
+    height: 40px;
+    background: url(../../01/img/parallax_div_bottom.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bloco-paralax1 {
+    height: 450px;
+    background: url(../../01/img/parallax1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bloco-paralax1 .container {
+    padding-right: 500px;
+    padding-top: 20px;
+    color: #fff;
+}
+
+.bloco-paralax3 {
+    height: 500px;
+    background: url(../../01/img/parallax3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bloco-paralax3 .container {
+    padding-right: 500px;
+    padding-top: 20px;
+    color: #fff;
+}
+
+.bloco-paralax2 {
+    height: 450px;
+    background: url(../../01/img/parallax2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* FIM TUDO RELACIONADO AO PARALLAX */
+
+/* INICIO PAINEL CLICAVEL 2 */
+.painel2 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.bt-painel2 {
+    height: 227px;
+    width: 226px;
+    border: none;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.bt1-painel2 {
+    background: url(../../01/img/bt1.png) no-repeat;
+}
+
+.bt2-painel2 {
+    background: url(../../01/img/bt2.png) no-repeat;
+}
+
+.bt1-painel2:hover {
+    background: url(../../01/img/bt1_hv.png) no-repeat;
+}
+
+.bt2-painel2:hover {
+    background: url(../../01/img/bt2_hv.png) no-repeat;
+}
+
+/* FIM PAINEL CLICAVEL 2 */
+
+
+/* INICIO PAINEL CLICAVEL 1 */
+.painel1 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.bt-painel1 {
+    height: 51px;
+    width: 168px;
+    border: none;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.bt1-painel1 {
+    background: url(../../01/img/painel1_bt1.png) no-repeat;
+}
+
+.bt2-painel1 {
+    background: url(../../01/img/painel1_bt2.png) no-repeat;
+}
+
+.bt3-painel1 {
+    background: url(../../01/img/painel1_bt3.png) no-repeat;
+}
+
+.bt1-painel1:hover {}
+
+.bt2-painel1:hover {}
+
+.bt3-painel1:hover {}
+
+/* FIM PAINEL CLICAVEL 1 */
+
+.bg-podcast {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:849px) {
+    .bloco-paralax1 .container {
+        padding-right: 370px;
+        padding-top: 1px;
+    }
+
+    .bloco-paralax3 .container {
+        padding-right: 370px;
+        padding-top: 1px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .bloco-paralax1 .container {
+        padding-right: unset;
+        padding-top: 10px;
+    }
+
+    .bloco-paralax1 {
+        background: #004789;
+    }
+
+    .bloco-paralax2,
+    .bloco-paralax-top,
+    .bloco-paralax-bottom {
+        display: none;
+    }
+
+    .bloco-paralax3 {
+        background: #004789;
+        height: 500px;
+    }
+
+    .bloco-paralax3 .container {
+        padding-right: unset;
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width:710px) {
+    .painel2 {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bt-painel2 {
+        margin-right: unset;
+        margin-left: unset;
+        margin-bottom: 50px;
+    }
+}
