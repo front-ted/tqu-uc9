@@ -19,6 +19,13 @@
     background-attachment: fixed;
 }
 
+.bloco3 .container {
+    background-color: #F3F5F8;
+    border: 4px solid #FFF;
+    border-radius: 8px;
+    padding: 0 100px;
+}
+
 .bloco4 {
     background: url(../../01/img/BG4.jpg) no-repeat;
     background-size: cover;
@@ -130,6 +137,10 @@
     align-content: center;
     justify-content: center;
     align-items: center;
+    background: url(../../01/img/painel1_BG.png) no-repeat;
+    background-size: contain;
+    height: 532px;
+    background-position: center;
 }
 
 .bt-painel1 {
@@ -138,6 +149,7 @@
     border: none;
     margin-right: 10px;
     margin-left: 10px;
+    transition: transform 0.3s ease;
 }
 
 .bt1-painel1 {
@@ -152,76 +164,174 @@
     background: url(../../01/img/painel1_bt3.png) no-repeat;
 }
 
-.bt1-painel1:hover {}
-
-.bt2-painel1:hover {}
-
-.bt3-painel1:hover {}
+.bt1-painel1:hover,
+.bt2-painel1:hover,
+.bt3-painel1:hover {
+    transform: scale(1.1);
+}
 
 /* FIM PAINEL CLICAVEL 1 */
 
+/* INICIO PAINEL CLICAVEL 3 */
+.painel3 {
+    background: url(../../01/img/painel2_centro.png) no-repeat;
+    background-size: contain;
+    height: 900px;
+    background-position: center;
+}
+
+.bt-painel3 {
+    background: url(../../01/img/painel2_bt.png) no-repeat;
+    height: 281px;
+    width: 282px;
+    border: none;
+    transition: transform 0.3s ease;
+    position: relative;
+}
+
+.bt-painel3:hover {
+    background: url(../../01/img/painel2_bt_hv.png) no-repeat;
+
+}
+
+.bt1-painel3::after {
+    content: "Modelo de excelência da gestão";
+}
+
+.bt2-painel3::after {
+    content: "World class manufacturing";
+}
+
+.bt3-painel3::after {
+    content: "Modelo ibero-americano de excelência em gestão";
+}
+
+.bt4-painel3::after {
+    content: "Modelo EFQM";
+}
+
+.bt5-painel3::after {
+    content: "Environmental, social and governance";
+}
+
+.bt6-painel3::after {
+    content: "Deming";
+}
+
+.bt7-painel3::after {
+    content: "Malcolm Baldrige";
+}
+
+.bt1-painel3:hover::after,
+.bt2-painel3:hover::after,
+.bt3-painel3:hover::after,
+.bt4-painel3:hover::after,
+.bt5-painel3:hover::after,
+.bt6-painel3:hover::after,
+.bt7-painel3:hover::after {
+    color: #004789;
+}
+
+.bt1-painel3::after,
+.bt2-painel3::after,
+.bt3-painel3::after,
+.bt4-painel3::after,
+.bt5-painel3::after,
+.bt6-painel3::after,
+.bt7-painel3::after {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #8badd1;
+    font-weight: bold;
+}
+
+/* FIM PAINEL CLICAVEL 3 */
 .bg-podcast {
     margin-top: 80px;
     margin-bottom: 80px;
 }
 
+.img-divisoria1 {
+    margin-top: -3%;
+    position: absolute;
+    left: 47%;
+}
+
+footer {
+    background: url(../../01/img/BG5.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* INICIO MARCADOR 2 */
+.marcador2 {
+    list-style: none;
+    padding: 0;
+}
+
+.marcador2 li {
+    position: relative;
+    padding-left: 30px;
+    line-height: 1.5;
+}
+
+.marcador2 li::before {
+    content: "";
+    background-image: url('../../01/img/marcador1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 21px;
+    height: 21px;
+}
+
+/* FIM MARCADOR 2 */
+
+/* INICIO MARCADOR 1 */
+.marcador1 {
+    list-style: none;
+    padding: 0;
+}
+
+.marcador1 li {
+    position: relative;
+    padding-left: 30px;
+    line-height: 1.5;
+}
+
+.marcador1 li::before {
+    content: "";
+    background-image: url('../../01/img/marcador2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 21px;
+    height: 21px;
+}
+
+/* FIM MARCADOR 1 */
+.bloco3 .accordion-body {
+    margin-left: -1px;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (max-width:860px) {
+    .bloco3 .container {
+        padding: 0 40px;
+    }
+}
 
 @media screen and (max-width:849px) {
-    .bloco-paralax1 .container {
-        padding-right: 370px;
-        padding-top: 1px;
-    }
 
+    .bloco-paralax1 .container,
     .bloco-paralax3 .container {
         padding-right: 370px;
         padding-top: 1px;
@@ -235,7 +345,8 @@
     }
 
     .bloco-paralax1 {
-        background: #004789;
+        background: url(../../01/img/BG_mob_parallax.jpg) no-repeat;
+        background-size: cover;
     }
 
     .bloco-paralax2,
@@ -245,7 +356,8 @@
     }
 
     .bloco-paralax3 {
-        background: #004789;
+        background: url(../../01/img/BG_mob_parallax.jpg) no-repeat;
+        background-size: cover;
         height: 500px;
     }
 
@@ -253,9 +365,7 @@
         padding-right: unset;
         padding-top: 10px;
     }
-}
 
-@media screen and (max-width:710px) {
     .painel2 {
         display: flex;
         flex-direction: column;
@@ -268,5 +378,21 @@
         margin-right: unset;
         margin-left: unset;
         margin-bottom: 50px;
+    }
+
+    .painel1 {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        background: none;
+        height: unset;
+        flex-direction: column;
+    }
+
+    .bt-painel1 {
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 20px;
     }
 }
