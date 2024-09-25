@@ -1,1 +1,146 @@
 @charset "utf-8";
+
+/* INICIO PAINEL CLICAVEL 2 */
+.painel2 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background: url(../../03/img/painel_bg.png) no-repeat;
+    background-size: contain;
+    height: 700px;
+    background-position: center;
+    flex-wrap: wrap;
+}
+
+.bt-painel2 {
+    height: 159px;
+    width: 161px;
+    border: none;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.bt1-painel2 {
+    background: url(../../03/img/painel_bt1.png) no-repeat;
+}
+
+.bt2-painel2 {
+    background: url(../../03/img/painel_bt2.png) no-repeat;
+}
+
+.bt3-painel2 {
+    background: url(../../03/img/painel_bt3.png) no-repeat;
+}
+
+.bt4-painel2 {
+    background: url(../../03/img/painel_bt4.png) no-repeat;
+}
+
+.bt5-painel2 {
+    background: url(../../03/img/painel_bt5.png) no-repeat;
+}
+
+.bt6-painel2 {
+    background: url(../../03/img/painel_bt6.png) no-repeat;
+}
+
+.bt7-painel2 {
+    background: url(../../03/img/painel_bt7.png) no-repeat;
+}
+
+.bt1-painel2:hover {
+    background: url(../../03/img/painel_bt1_hv.png) no-repeat;
+}
+
+.bt2-painel2:hover {
+    background: url(../../03/img/painel_bt2_hv.png) no-repeat;
+}
+
+.bt3-painel2:hover {
+    background: url(../../03/img/painel_bt3_hv.png) no-repeat;
+}
+
+.bt4-painel2:hover {
+    background: url(../../03/img/painel_bt4_hv.png) no-repeat;
+}
+
+.bt5-painel2:hover {
+    background: url(../../03/img/painel_bt5_hv.png) no-repeat;
+}
+
+.bt6-painel2:hover {
+    background: url(../../03/img/painel_bt6_hv.png) no-repeat;
+}
+
+.bt7-painel2:hover {
+    background: url(../../03/img/painel_bt7_hv.png) no-repeat;
+}
+
+.bt1-painel2.visto {
+    background: url(../../03/img/painel_bt1_ok.png) no-repeat;
+}
+
+.bt2-painel2.visto {
+    background: url(../../03/img/painel_bt2_ok.png) no-repeat;
+}
+
+.bt3-painel2.visto {
+    background: url(../../03/img/painel_bt3_ok.png) no-repeat;
+}
+
+.bt4-painel2.visto {
+    background: url(../../03/img/painel_bt4_ok.png) no-repeat;
+}
+
+.bt5-painel2.visto {
+    background: url(../../03/img/painel_bt5_ok.png) no-repeat;
+}
+
+.bt6-painel2.visto {
+    background: url(../../03/img/painel_bt6_ok.png) no-repeat;
+}
+
+.bt7-painel2.visto {
+    background: url(../../03/img/painel_bt7_ok.png) no-repeat;
+}
+
+/* FIM PAINEL CLICAVEL 2 */
+
+/* INICIO PAINEL CLICAVEL 1 */
+.painel1 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.bt-painel1 {
+    height: 290px;
+    width: 291px;
+    border: none;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.bt1-painel1 {
+    background: url(../../03/img/bt1.png) no-repeat;
+}
+
+.bt2-painel1 {
+    background: url(../../03/img/bt2.png) no-repeat;
+}
+
+.bt1-painel1:hover {
+    background: url(../../03/img/bt1_hv.png) no-repeat;
+}
+
+.bt2-painel1:hover {
+    background: url(../../03/img/bt2_hv.png) no-repeat;
+}
+
+/* FIM PAINEL CLICAVEL 1 */
+
+/* .modal-80 .modal-body .container {
+    max-width: 800px !important;
+} */
