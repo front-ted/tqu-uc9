@@ -196,20 +196,81 @@ tr {
 
 /* FIM ZOOM IMAGEM */
 
+/* INICIO ALTERAÇÕES MODAIS */
+.modal-body {
+    background: url(../../04/img/BG_modal80.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    background-position: center;
+}
 
+.modal-header {
+    background: url(../../04/img/BG_modal80.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.modal-header h5 {
+    color: #000;
+}
 
+/* FIM ALTERAÇÕES MODAIS */
 
+/* INICIO IMAGENS LATERAIS */
+.rellax {
+    position: absolute;
+    z-index: 15;
+    width: 30%;
+}
 
+.rellax-1 {
+    left: -300px;
+    top: 5814px;
+}
 
+.rellax-2 {
+    left: -300px;
+    top: 7262px;
+}
 
+.rellax-3 {
+    left: -300px;
+    top: 8880px;
+}
 
+.rellax-4 {
+    left: -300px;
+    top: 9328px;
+}
 
+.rellax-5 {
+    left: -300px;
+    top: 10600px;
+}
 
+/* FIM IMAGENS LATERAIS */
+@media screen and (max-width:768px) {
+    .rellax-1 {
+        display: none !important;
+    }
 
+    .rellax-2 {
+        display: none !important;
+    }
 
+    .rellax-3 {
+        display: none !important;
+    }
 
+    .rellax-4 {
+        display: none !important;
+    }
 
+    .rellax-5 {
+        display: none !important;
+    }
+}
 
 @media screen and (max-width:767px) {
     .painel1 {
