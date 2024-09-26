@@ -1,1 +1,252 @@
 @charset "utf-8";
+
+/* INICIO PAINEL CLICAVEL 1 */
+.painel1 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.bt-painel1 {
+    height: 64px;
+    width: 229px;
+    border: none;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.bt1-painel1 {
+    background: url(../../04/img/bt1.png) no-repeat;
+}
+
+.bt2-painel1 {
+    background: url(../../04/img/bt2.png) no-repeat;
+}
+
+.bt1-painel1:hover {
+    background: url(../../04/img/bt1_hv.png) no-repeat;
+}
+
+.bt2-painel1:hover {
+    background: url(../../04/img/bt2_hv.png) no-repeat;
+}
+
+/* FIM PAINEL CLICAVEL 1 */
+
+/* INICIO PAINEL CLICAVEL 2 */
+.painel2 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.bt-painel2 {
+    height: 188px;
+    width: 228px;
+    border: none;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.bt1-painel2 {
+    background: url(../../04/img/bt3.png) no-repeat;
+}
+
+.bt2-painel2 {
+    background: url(../../04/img/bt4.png) no-repeat;
+}
+
+.bt1-painel2:hover {
+    background: url(../../04/img/bt3_hv.png) no-repeat;
+    height: 184px;
+    width: 271px;
+}
+
+.bt2-painel2:hover {
+    background: url(../../04/img/bt4_hv.png) no-repeat;
+    height: 184px;
+    width: 271px;
+}
+
+/* FIM PAINEL CLICAVEL 2 */
+
+/* INICIO MARCADOR 2 */
+.marcador2 {
+    list-style: none;
+    padding: 0;
+}
+
+.marcador2 li {
+    position: relative;
+    padding-left: 30px;
+    line-height: 1.5;
+}
+
+.marcador2 li::before {
+    content: "";
+    background-image: url('../../04/img/marcador_simples.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 11px;
+}
+
+/* FIM MARCADOR 2 */
+
+/* INICIO BLOCOS */
+.bloco1 {
+    background: url(../../04/img/BG1.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bloco2 {
+    background: url(../../04/img/BG2.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bloco3,
+footer {
+    background: url(../../04/img/BG3.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* FIM BLOCOS */
+
+/* INICIO ALTERAÇÕES TABELAS */
+.elipse {
+    position: absolute;
+    top: 10%;
+    left: -15%;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../03/img/tabela_bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.table-responsive {
+    position: relative;
+    z-index: 1;
+    overflow: visible;
+}
+
+table {
+    background-color: #fff;
+    position: relative;
+    z-index: 2;
+}
+
+thead {
+    background: linear-gradient(to right, rgba(146, 172, 206, 0.7), #1A4480);
+    color: #fff;
+}
+
+thead th {
+    border-right: unset;
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+    border-width: 2px;
+    border-color: #92ACCE;
+}
+
+/* FIM ALTERAÇÕES TABELAS */
+
+.img-divisoria1 {
+    margin-top: -3%;
+    position: absolute;
+    left: 47%;
+}
+
+/* INCIO ZOOM IMAGEM */
+.img-zoom {
+    display: table;
+    position: relative;
+    margin: 0px auto;
+    cursor: pointer;
+}
+
+.img-zoom::after {
+    content: url(../../04/img/ico_zoom.png);
+    display: block;
+    width: 80px;
+    height: 80px;
+    right: 50px;
+    bottom: 25px;
+    position: absolute;
+    filter: drop-shadow(#333 3px 3px 4px);
+}
+
+/* FIM ZOOM IMAGEM */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:767px) {
+    .painel1 {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bt-painel1 {
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    .painel2 {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bt-painel2 {
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .img-divisoria1 {
+        margin-top: -5%;
+        position: absolute;
+        left: 38%;
+    }
+}

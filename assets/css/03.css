@@ -318,11 +318,7 @@ tr {
 
 /* FIM ELIPSE E ALTERAÇÕES TABELAS */
 
-
-
-
-
-/* INICIO IMAGENS LATERIAS */
+/* INICIO IMAGENS LATERAIS */
 .rellax {
     position: absolute;
     z-index: 15;
@@ -333,9 +329,7 @@ tr {
     top: 800px;
 }
 
-
-
-/* FIM IMAGENS LATERIAS */
+/* FIM IMAGENS LATERAIS */
 
 
 
@@ -391,13 +385,10 @@ tr {
 
 @media screen and (max-width:1400px) {
     .rellax-1 {
-        right: -450px;
-        top: 800px;
+        right: 0px;
+        top: 0px;
     }
 }
-
-
-
 
 @media screen and (max-width:900px) {
     .elipse {
@@ -411,7 +402,6 @@ tr {
     .rellax-1 {
         display: none;
     }
-
 }
 
 @media screen and (max-width:767px) {
@@ -428,5 +418,13 @@ tr {
         margin-left: 0;
         margin-bottom: 30px;
         margin-top: 30px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .img-divisoria1 {
+        margin-top: -5%;
+        position: absolute;
+        left: 38%;
     }
 }

@@ -396,3 +396,11 @@ footer {
         margin-top: 20px;
     }
 }
+
+@media screen and (max-width:500px) {
+    .img-divisoria1 {
+        margin-top: -5%;
+        position: absolute;
+        left: 38%;
+    }
+}
