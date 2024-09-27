@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+.accordion-body {
+    margin-left: -1px;
+}
+
 /* INICIO PAINEL CLICAVEL 1 */
 .painel1 {
     display: flex;

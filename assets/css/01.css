@@ -322,7 +322,39 @@ footer {
     margin-left: -1px;
 }
 
+/* INICIO ALTERAÇÕES MODAIS */
+.modal-80 .container {
+    background-color: unset;
+    border: unset;
+    border-radius: unset;
+    padding: unset;
+}
 
+.organizacional1 .modal-body {
+    background: url(../../01/img/BG_modal80_1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: none;
+}
+
+.organizacional2 .modal-body {
+    background: url(../../01/img/BG_modal80_2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: none;
+}
+
+.modal-80 .modal-header {
+    background: url(../../01/img/BG_modal80_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.modal-80 .modal-header h5 {
+    color: #000;
+}
+
+/* FIM ALTERAÇÕES MODAIS */
 @media screen and (max-width:860px) {
     .bloco3 .container {
         padding: 0 40px;

@@ -4,6 +4,10 @@ body {
     background-color: #FFF;
 }
 
+.accordion-body {
+    margin-left: -1px;
+}
+
 /* INICIO PAINEL CLICAVEL 2 */
 .painel2 {
     display: flex;
@@ -322,6 +326,7 @@ tr {
 .rellax {
     position: absolute;
     z-index: 15;
+    width: 30%;
 }
 
 .rellax-1 {
@@ -329,9 +334,95 @@ tr {
     top: 800px;
 }
 
+.rellax-2 {
+    right: -450px;
+    top: 900px;
+}
+
+.rellax-3 {
+    right: -450px;
+    top: 1000px;
+}
+
+.rellax-4 {
+    right: -450px;
+    top: 1500px;
+}
+
 /* FIM IMAGENS LATERAIS */
 
+/* INICIO ALTERAÇÕES MODAIS */
+.modal-80 .tab-content {
+    background-color: #fff;
+}
 
+.modals4 .modal-body {
+    background: url(../../03/img/bg_modal_secao4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    /* background-position: center; */
+}
+
+.modals5 .modal-body {
+    background: url(../../03/img/bg_modal_secao5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    /* background-position: center; */
+}
+
+.modals6 .modal-body {
+    background: url(../../03/img/bg_modal_secao6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    /* background-position: center; */
+}
+
+.modals7 .modal-body {
+    background: url(../../03/img/bg_modal_secao7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    /* background-position: center; */
+}
+
+.modals8 .modal-body {
+    background: url(../../03/img/bg_modal_secao8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    /* background-position: center; */
+}
+
+.modals9 .modal-body {
+    background: url(../../03/img/bg_modal_secao9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    /* background-position: center; */
+}
+
+.modals10 .modal-body {
+    background: url(../../03/img/bg_modal_secao10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    /* background-position: center; */
+}
+
+.modal-80 .modal-header {
+    background: url(../../03/img/bg_modal_secao4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.modal-80 .modal-header h5 {
+    color: #000;
+}
+
+/* FIM ALTERAÇÕES MODAIS */
 
 
 
@@ -401,6 +492,24 @@ tr {
 
     .rellax-1 {
         display: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .rellax-1 {
+        display: none !important;
+    }
+
+    .rellax-2 {
+        display: none !important;
+    }
+
+    .rellax-3 {
+        display: none !important;
+    }
+
+    .rellax-4 {
+        display: none !important;
     }
 }
 
