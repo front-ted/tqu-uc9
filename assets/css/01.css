@@ -185,8 +185,10 @@
 .painel3 {
     background: url(../../01/img/painel2_centro.png) no-repeat;
     background-size: contain;
-    height: 900px;
+    height: 488px;
     background-position: center;
+    margin-top: 305px;
+    margin-bottom: 305px;
 }
 
 .bt-painel3 {
@@ -200,7 +202,41 @@
 
 .bt-painel3:hover {
     background: url(../../01/img/painel2_bt_hv.png) no-repeat;
+}
 
+.bt1-painel3 {
+    top: 197px;
+    left: 695px;
+}
+
+.bt2-painel3 {
+    top: -125px;
+    right: -350px;
+}
+
+.bt3-painel3 {
+    top: -270px;
+    right: 265px;
+}
+
+.bt4-painel3 {
+    top: 180px;
+    right: -492px;
+}
+
+.bt5-painel3 {
+    top: 180px;
+    right: 153px;
+}
+
+.bt6-painel3 {
+    top: -80px;
+    right: 645px;
+}
+
+.bt7-painel3 {
+    top: -690px;
+    right: 20px;
 }
 
 .bt1-painel3::after {
@@ -364,6 +400,57 @@ footer {
 }
 
 /* FIM ALTERAÇÕES MODAIS */
+@media screen and (max-width:1000px) {
+    .painel3 {
+        display: flex;
+        background: unset;
+        background-size: unset;
+        height: unset;
+        background-position: unset;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bt1-painel3 {
+        top: unset;
+        left: unset;
+    }
+
+    .bt2-painel3 {
+        top: unset;
+        right: unset;
+    }
+
+    .bt3-painel3 {
+        top: unset;
+        right: unset;
+    }
+
+    .bt4-painel3 {
+        top: unset;
+        right: unset;
+    }
+
+    .bt5-painel3 {
+        top: unset;
+        right: unset;
+    }
+
+    .bt6-painel3 {
+        top: unset;
+        right: unset;
+    }
+
+    .bt7-painel3 {
+        top: unset;
+        right: unset;
+    }
+}
+
 @media screen and (max-width:860px) {
     .bloco3 .container {
         padding: 0 40px;
