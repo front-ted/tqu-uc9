@@ -10,15 +10,16 @@ body {
 
 /* INICIO PAINEL CLICAVEL 2 */
 .painel2 {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
     background: url(../../03/img/painel_bg.png) no-repeat;
-    background-size: contain;
     height: 700px;
-    background-position: center;
-    flex-wrap: wrap;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: flex-start;
+    padding-top: 40px;
+    padding-left: 30px;
 }
 
 .bt-painel2 {
@@ -326,27 +327,27 @@ tr {
 .rellax {
     position: absolute;
     z-index: 15;
-    width: 30%;
+
 }
 
 .rellax-1 {
-    right: -450px;
-    top: 800px;
+    right: -385px;
+    top: 860px;
 }
 
 .rellax-2 {
-    right: -450px;
-    top: 900px;
+    left: -504px;
+    top: 9149px;
 }
 
 .rellax-3 {
-    right: -450px;
-    top: 1000px;
+    right: -369px;
+    top: 12758px;
 }
 
 .rellax-4 {
-    right: -450px;
-    top: 1500px;
+    left: -481px;
+    top: 15633px;
 }
 
 /* FIM IMAGENS LATERAIS */
@@ -423,79 +424,21 @@ tr {
 }
 
 /* FIM ALTERAÇÕES MODAIS */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width:1400px) {
+@media screen and (max-width:1440px) {
     .rellax-1 {
-        right: 0px;
-        top: 0px;
+        right: -224px;
+        top: 808px;
+        width: 28%;
+    }
+
+    .rellax-3 {
+        right: -238px;
+        top: 12758px;
+        width: 28%;
     }
 }
 
-@media screen and (max-width:900px) {
-    .elipse {
-        display: none;
-    }
-
-    .table-responsive {
-        overflow-x: auto;
-    }
-
-    .rellax-1 {
-        display: none;
-    }
-}
-
-@media screen and (max-width:768px) {
+@media screen and (max-width:1024px) {
     .rellax-1 {
         display: none !important;
     }
@@ -510,6 +453,31 @@ tr {
 
     .rellax-4 {
         display: none !important;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .elipse {
+        display: none;
+    }
+
+    .table-responsive {
+        overflow-x: auto;
+    }
+
+    .painel2 {
+        background: unset;
+        height: unset;
+        background-size: unset;
+        display: flex;
+        padding-top: unset;
+        padding-left: unset;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
 }
 
@@ -535,5 +503,9 @@ tr {
         margin-top: -5%;
         position: absolute;
         left: 38%;
+    }
+
+    .painel2 {
+        text-align: center;
     }
 }

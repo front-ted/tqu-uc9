@@ -154,14 +154,23 @@
 
 .bt1-painel1 {
     background: url(../../01/img/painel1_bt1.png) no-repeat;
+    position: relative;
+    top: -140px;
+    right: -35px;
 }
 
 .bt2-painel1 {
     background: url(../../01/img/painel1_bt2.png) no-repeat;
+    position: relative;
+    top: 80px;
+    right: 230px;
 }
 
 .bt3-painel1 {
     background: url(../../01/img/painel1_bt3.png) no-repeat;
+    position: relative;
+    top: -30px;
+    right: -130px;
 }
 
 .bt1-painel1:hover,
@@ -370,6 +379,36 @@ footer {
     }
 }
 
+@media screen and (max-width:768px) {
+    .painel1 {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        background: none;
+        height: unset;
+        flex-direction: column;
+    }
+
+    .bt-painel1 {
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .bt1-painel1 {
+        position: unset;
+    }
+
+    .bt2-painel1 {
+        position: unset;
+    }
+
+    .bt3-painel1 {
+        position: unset;
+    }
+}
+
 @media screen and (max-width:767px) {
     .bloco-paralax1 .container {
         padding-right: unset;
@@ -410,22 +449,6 @@ footer {
         margin-right: unset;
         margin-left: unset;
         margin-bottom: 50px;
-    }
-
-    .painel1 {
-        display: flex;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-        background: none;
-        height: unset;
-        flex-direction: column;
-    }
-
-    .bt-painel1 {
-        margin-right: 0;
-        margin-left: 0;
-        margin-top: 20px;
     }
 }
 
