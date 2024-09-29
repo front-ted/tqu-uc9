@@ -483,27 +483,37 @@
                             mais informações, mas, no mínimo, os dados que deverão ser providenciados pela empresa que
                             busca
                             a certificação são (Domingues, 2018):</p>
-                        <!-- <div id="carousel1" class="carousel slide carousel-fade my-5 no-print mx-auto"
-                            data-bs-ride="carousel">
-                            <div class="carousel-indicators mb-5">
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel1"
+                        <p class="d-block d-sm-none no-print" aria-hidden="true">Toque na imagem para ampliá-la.</p>
+                        <div id="carousel2" class="carousel slide carousel-fade no-print mt-5" aria-hidden="true">
+                            <div class="carousel-indicators">
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel2"
                                     data-bs-slide="prev"></button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carousel1"
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel2"
                                     data-bs-slide="next"></button>
-                                <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0"
+                                <button type="button" data-bs-target="#carousel2" data-bs-slide-to="0"
                                     class="indicador active" aria-current="true" aria-label="Slide 1"></button>
-                                <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" class="indicador"
+                                <button type="button" data-bs-target="#carousel2" data-bs-slide-to="1" class="indicador"
                                     aria-label="Slide 2"></button>
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img class="img-fluid d-block mx-auto" src="../04/img/slide_1.png">
+                                    <img class="img-fluid d-block mx-auto d-none d-sm-block"
+                                        src="../04/img/slide_1.png">
+                                    <a href="../04/img/slide_1.png" target="_blank"
+                                        class="d-block d-sm-none img-fluid mx-auto" aria-hidden="true">
+                                        <img src="../04/img/slide_1.png" class="img-fluid d-block mx-auto">
+                                    </a>
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="img-fluid d-block mx-auto" src="../04/img/slide_2.png">
+                                    <img class="img-fluid d-block mx-auto d-none d-sm-block"
+                                        src="../04/img/slide_2.png">
+                                    <a href="../04/img/slide_2.png" target="_blank"
+                                        class="d-block d-sm-none img-fluid mx-auto" aria-hidden="true">
+                                        <img src="../04/img/slide_2.png" class="img-fluid d-block mx-auto">
+                                    </a>
                                 </div>
                             </div>
-                        </div> -->
+                        </div>
                         <div class="only-print sr-only">
                             <ul>
                                 <li>Escopo desejado da certificação, ou seja, quais áreas e processos a organização quer
@@ -1263,7 +1273,33 @@
     <script src="../assets/js/prognroll.min.js"></script>
     <!--Scripts gerais-->
     <script src="../assets/js/geral.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const carousel = document.querySelector('#carousel2');
+            const prevButton = document.querySelector('.carousel-control-prev');
+            const nextButton = document.querySelector('.carousel-control-next');
 
+            carousel.addEventListener('slid.bs.carousel', function () {
+                const activeItem = carousel.querySelector('.carousel-item.active');
+
+                // Aqui você pode decidir quando os botões devem ser inativos
+                if (activeItem.previousElementSibling === null) {
+                    prevButton.classList.add('inactive');
+                } else {
+                    prevButton.classList.remove('inactive');
+                }
+
+                if (activeItem.nextElementSibling === null) {
+                    nextButton.classList.add('inactive');
+                } else {
+                    nextButton.classList.remove('inactive');
+                }
+            });
+
+            // Inicializa os botões no carregamento
+            carousel.dispatchEvent(new Event('slid.bs.carousel'));
+        });
+    </script>
     <script>
         var splide = new Splide('.splide', {
             type: 'slide',

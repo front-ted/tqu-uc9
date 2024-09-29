@@ -254,6 +254,75 @@ tr {
 }
 
 /* FIM IMAGENS LATERAIS */
+
+/* INICIO CONTROLES CAROUSEL */
+.carousel-control-prev {
+    background: url(../../04/img/slide_bt_anterior.png) no-repeat;
+    left: 279px;
+    top: -90px;
+    height: 32px !important;
+    width: 33px !important;
+}
+
+.carousel-control-prev:hover {
+    background: url(../../04/img/slide_bt_anterior_hv.png) no-repeat;
+}
+
+.carousel-control-next {
+    background: url(../../04/img/slide_bt_proximo.png) no-repeat;
+    right: 279px;
+    top: -90px;
+    height: 32px !important;
+    width: 33px !important;
+}
+
+.carousel-control-next:hover {
+    background: url(../../04/img/slide_bt_proximo_hv.png) no-repeat;
+}
+
+.carousel-control-prev.inactive {
+    background: url(../../04/img/slide_bt_anterior_inativo.png) no-repeat;
+}
+
+.carousel-control-next.inactive {
+    background: url(../../04/img/slide_bt_proximo_inativo.png) no-repeat;
+}
+
+.carousel-indicators [data-bs-target].active,
+.splide__pagination__page.is-active,
+.game-associar-colunas button.item {
+    border-color: transparent;
+    background: transparent;
+}
+
+.carousel-indicators .indicador,
+.splide__pagination__page {
+    background-color: transparent;
+}
+
+.carousel-indicators .indicador,
+.splide__pagination__page,
+.modal-body,
+.popover,
+.tab-content,
+.multipla-escolha button,
+.f-positivo,
+.f-negativo,
+.game-body .slot,
+.resp,
+.bg-podcast {
+    border-color: transparent;
+}
+
+.carousel-indicators {
+    bottom: 10px;
+}
+
+.carousel {
+    margin-bottom: 60px;
+}
+
+/* FIM CONTROLES CAROUSEL */
 @media screen and (max-width:768px) {
     .rellax-1 {
         display: none !important;
@@ -273,6 +342,16 @@ tr {
 
     .rellax-5 {
         display: none !important;
+    }
+
+    .carousel-control-prev {
+        left: 250px;
+        transform: rotate(180deg);
+    }
+
+    .carousel-control-next {
+        right: 250px;
+        transform: rotate(180deg);
     }
 }
 
@@ -313,5 +392,19 @@ tr {
         margin-top: -5%;
         position: absolute;
         left: 38%;
+    }
+
+    .carousel-control-prev {
+        left: 130px;
+        top: -40px;
+    }
+
+    .carousel-control-next {
+        right: 130px;
+        top: -40px;
+    }
+
+    .carousel {
+        margin-bottom: 40px;
     }
 }
