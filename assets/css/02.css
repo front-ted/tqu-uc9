@@ -18,3 +18,745 @@
     margin: auto;
     margin-bottom: 30px;
 }
+
+body {
+    background: url(../../02/img/BG_modelo.jpg) no-repeat;
+    background-size: 100% 100% !important;
+}
+
+.bt-painel1 {
+    border: none;
+    position: fixed;
+    background-color: transparent;
+}
+
+.bt1-painel1 {
+    width: 311px;
+    height: 218px;
+    top: 90px;
+    left: 370px;
+}
+
+.bt2-painel1 {
+    width: 247px;
+    height: 275px;
+    top: 325px;
+    left: 430px;
+}
+
+.bt3-painel1 {
+    width: 239px;
+    height: 295px;
+    top: 690px;
+    left: 460px;
+}
+
+.bt4-painel1 {
+    width: 222px;
+    height: 301px;
+    top: 170px;
+    left: 740px;
+}
+
+.bt5-painel1 {
+    width: 235px;
+    height: 293px;
+    top: 530px;
+    left: 745px;
+}
+
+.bt6-painel1 {
+    width: 237px;
+    height: 295px;
+    top: 95px;
+    left: 995px;
+}
+
+.bt7-painel1 {
+    width: 241px;
+    height: 300px;
+    top: 420px;
+    left: 1000px;
+}
+
+.bt8-painel1 {
+    width: 209px;
+    height: 288px;
+    top: 738px;
+    left: 989px;
+}
+
+.bt9-painel1 {
+    width: 231px;
+    height: 300px;
+    top: 85px;
+    left: 1311px;
+}
+
+.bt10-painel1 {
+    width: 254px;
+    height: 292px;
+    top: 390px;
+    left: 1265px;
+}
+
+.bt11-painel1 {
+    width: 235px;
+    height: 294px;
+    top: 700px;
+    left: 1320px;
+}
+
+.bt1-painel1:hover {
+    background: url(../../02/img/bt_intro_hv.png) no-repeat;
+}
+
+.bt2-painel1:hover {
+    background: url(../../02/img/bt_meg_hv.png) no-repeat;
+}
+
+.bt3-painel1:hover {
+    background: url(../../02/img/bt_wcm_hv.png) no-repeat;
+}
+
+.bt4-painel1:hover {
+    background: url(../../02/img/bt_ibero_hv.png) no-repeat;
+}
+
+.bt5-painel1:hover {
+    background: url(../../02/img/bt_efqm_hv.png) no-repeat;
+}
+
+.bt6-painel1:hover {
+    background: url(../../02/img/bt_esg_hv.png) no-repeat;
+}
+
+.bt7-painel1:hover {
+    background: url(../../02/img/bt_deming_hv.png) no-repeat;
+}
+
+.bt8-painel1:hover {
+    background: url(../../02/img/bt_malcon_hv.png) no-repeat;
+}
+
+.bt9-painel1:hover {
+    background: url(../../02/img/bt_modelos_hv.png) no-repeat;
+}
+
+.bt10-painel1:hover {
+    background: url(../../02/img/bt_quiz_hv.png) no-repeat;
+}
+
+.bt11-painel1:hover {
+    background: url(../../02/img/bt_encerram_hv.png) no-repeat;
+}
+
+.bt1-painel1.visto {
+    background: url(../../02/img/bt_intro_ok.png) no-repeat;
+}
+
+.bt2-painel1.visto {
+    background: url(../../02/img/bt_meg_ok.png) no-repeat;
+}
+
+.bt3-painel1.visto {
+    background: url(../../02/img/bt_wcm_ok.png) no-repeat;
+}
+
+.bt4-painel1.visto {
+    background: url(../../02/img/bt_ibero_ok.png) no-repeat;
+}
+
+.bt5-painel1.visto {
+    background: url(../../02/img/bt_efqm_ok.png) no-repeat;
+}
+
+.bt6-painel1.visto {
+    background: url(../../02/img/bt_esg_ok.png) no-repeat;
+}
+
+.bt7-painel1.visto {
+    background: url(../../02/img/bt_deming_ok.png) no-repeat;
+}
+
+.bt8-painel1.visto {
+    background: url(../../02/img/bt_malcon_ok.png) no-repeat;
+}
+
+.bt9-painel1.visto {
+    background: url(../../02/img/bt_modelos_ok.png) no-repeat;
+}
+
+.bt10-painel1.visto {
+    background: url(../../02/img/bt_quiz_ok.png) no-repeat;
+}
+
+.bt11-painel1.visto {
+    background: url(../../02/img/bt_encerram_ok.png) no-repeat;
+}
+
+@media screen and (max-width:2560px) {
+    .bt-painel1 {
+        scale: 1.2;
+    }
+
+    .bt1-painel1 {
+        top: 73px;
+        left: 548px;
+    }
+
+    .bt2-painel1 {
+        top: 302px;
+        left: 619px;
+    }
+
+    .bt3-painel1 {
+        top: 621px;
+        left: 660px;
+    }
+
+    .bt4-painel1 {
+        top: 119px;
+        left: 1030px;
+    }
+
+    .bt5-painel1 {
+        top: 466px;
+        left: 1030px;
+    }
+
+    .bt6-painel1 {
+        top: 64px;
+        left: 1363px;
+    }
+
+    .bt7-painel1 {
+        top: 373px;
+        left: 1368px;
+    }
+
+    .bt8-painel1 {
+        top: 665px;
+        left: 1359px;
+    }
+
+    .bt9-painel1 {
+        top: 59px;
+        left: 1782px;
+    }
+
+    .bt10-painel1 {
+        top: 351px;
+        left: 1725px;
+    }
+
+    .bt11-painel1 {
+        top: 611px;
+        left: 1795px;
+    }
+}
+
+@media screen and (max-width:1920px) {
+    .bt1-painel1 {
+        top: 90px;
+        left: 370px;
+    }
+
+    .bt2-painel1 {
+        top: 325px;
+        left: 430px;
+    }
+
+    .bt3-painel1 {
+        top: 690px;
+        left: 460px;
+    }
+
+    .bt4-painel1 {
+        top: 170px;
+        left: 740px;
+    }
+
+    .bt5-painel1 {
+        top: 530px;
+        left: 745px;
+    }
+
+    .bt6-painel1 {
+        top: 95px;
+        left: 995px;
+    }
+
+    .bt7-painel1 {
+        top: 420px;
+        left: 1000px;
+    }
+
+    .bt8-painel1 {
+        top: 738px;
+        left: 989px;
+    }
+
+    .bt9-painel1 {
+        top: 85px;
+        left: 1311px;
+    }
+
+    .bt10-painel1 {
+        top: 390px;
+        left: 1265px;
+    }
+
+    .bt11-painel1 {
+        top: 700px;
+        left: 1320px;
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .bt-painel1 {
+        scale: 0.8;
+    }
+
+    .bt1-painel1 {
+        top: 49px;
+        left: 243px;
+    }
+
+    .bt2-painel1 {
+        top: 221px;
+        left: 294px;
+    }
+
+    .bt3-painel1 {
+        top: 503px;
+        left: 312px;
+    }
+
+    .bt4-painel1 {
+        top: 100px;
+        left: 526px;
+    }
+
+    .bt5-painel1 {
+        top: 383px;
+        left: 528px;
+    }
+
+    .bt6-painel1 {
+        top: 51px;
+        left: 722px;
+    }
+
+    .bt7-painel1 {
+        top: 302px;
+        left: 716px;
+    }
+
+    .bt8-painel1 {
+        top: 545px;
+        left: 726px;
+    }
+
+    .bt9-painel1 {
+        top: 31px;
+        left: 954px;
+    }
+
+    .bt10-painel1 {
+        top: 269px;
+        left: 916px;
+    }
+
+    .bt11-painel1 {
+        top: 506px;
+        left: 962px;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .bt-painel1 {
+        scale: 0.95;
+    }
+
+    .bt1-painel1 {
+        top: 85px;
+        left: 230px;
+    }
+
+    .bt2-painel1 {
+        top: 310px;
+        left: 275px;
+    }
+
+    .bt3-painel1 {
+        top: 670px;
+        left: 310px;
+    }
+
+    .bt4-painel1 {
+        top: 160px;
+        left: 510px;
+    }
+
+    .bt5-painel1 {
+        top: 505px;
+        left: 515px;
+    }
+
+    .bt6-painel1 {
+        top: 90px;
+        left: 705px;
+    }
+
+    .bt7-painel1 {
+        top: 400px;
+        left: 700px;
+    }
+
+    .bt8-painel1 {
+        top: 720px;
+        left: 705px;
+    }
+
+    .bt9-painel1 {
+        top: 80px;
+        left: 925px;
+    }
+
+    .bt10-painel1 {
+        top: 380px;
+        left: 900px;
+    }
+
+    .bt11-painel1 {
+        top: 670px;
+        left: 930px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .bt-painel1 {
+        scale: 0.7;
+    }
+
+    .bt1-painel1 {
+        top: 44px;
+        left: 117px;
+    }
+
+    .bt2-painel1 {
+        top: 215px;
+        left: 176px;
+
+    }
+
+    .bt3-painel1 {
+        top: 495px;
+        left: 193px;
+    }
+
+    .bt4-painel1 {
+        top: 96px;
+        left: 341px;
+    }
+
+    .bt5-painel1 {
+        top: 368px;
+        left: 345px;
+    }
+
+    .bt6-painel1 {
+        top: 32px;
+        left: 483px;
+    }
+
+    .bt7-painel1 {
+        top: 288px;
+        left: 489px;
+    }
+
+    .bt8-painel1 {
+        top: 534px;
+        left: 483px;
+    }
+
+    .bt9-painel1 {
+        top: 27px;
+        left: 641px;
+    }
+
+    .bt10-painel1 {
+        top: 262px;
+        left: 628px;
+    }
+
+    .bt11-painel1 {
+        top: 500px;
+        left: 651px;
+
+    }
+}
+
+@media screen and (max-width:768px) {
+    body {
+        background: url(../../02/img/BG_mob.jpg) no-repeat;
+        background-size: 100% 100% !important;
+    }
+
+    .painel1 {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bt-painel1 {
+        position: unset;
+        scale: 1.1;
+        margin: 10px;
+    }
+
+    .bt1-painel1 {
+        width: 263px;
+        height: 185px;
+        background: url(../../02/img/bt_intro_mob.png) no-repeat;
+    }
+
+    .bt2-painel1 {
+        width: 227px;
+        height: 281px;
+        background: url(../../02/img/bt_meg_mob.png) no-repeat;
+    }
+
+    .bt3-painel1 {
+        width: 239px;
+        height: 295px;
+        background: url(../../02/img/bt_wcm_mob.png) no-repeat;
+    }
+
+    .bt4-painel1 {
+        width: 211px;
+        height: 286px;
+        background: url(../../02/img/bt_ibero_mob.png) no-repeat;
+    }
+
+    .bt5-painel1 {
+        width: 223px;
+        height: 279px;
+        background: url(../../02/img/bt_efqm_mob.png) no-repeat;
+    }
+
+    .bt6-painel1 {
+        width: 237px;
+        height: 295px;
+        background: url(../../02/img/bt_esg_mob.png) no-repeat;
+    }
+
+    .bt7-painel1 {
+        width: 229px;
+        height: 286px;
+        background: url(../../02/img/bt_deming_mob.png) no-repeat;
+    }
+
+    .bt8-painel1 {
+        width: 199px;
+        height: 274px;
+        background: url(../../02/img/bt_malcon_mob.png) no-repeat;
+    }
+
+    .bt9-painel1 {
+        width: 221px;
+        height: 286px;
+        background: url(../../02/img/bt_modelos_mob.png) no-repeat;
+    }
+
+    .bt10-painel1 {
+        width: 242px;
+        height: 278px;
+        background: url(../../02/img/bt_quiz_mob.png) no-repeat;
+    }
+
+    .bt11-painel1 {
+        width: 223px;
+        height: 280px;
+        background: url(../../02/img/bt_encerram_mob.png) no-repeat;
+    }
+
+    .bt1-painel1.visto {
+        background: url(../../02/img/bt_intro_mob_ok.png) no-repeat;
+    }
+
+    .bt2-painel1.visto {
+        background: url(../../02/img/bt_meg_mob_ok.png) no-repeat;
+    }
+
+    .bt3-painel1.visto {
+        background: url(../../02/img/bt_wcm_mob_ok.png) no-repeat;
+    }
+
+    .bt4-painel1.visto {
+        background: url(../../02/img/bt_ibero_mob_ok.png) no-repeat;
+    }
+
+    .bt5-painel1.visto {
+        background: url(../../02/img/bt_efqm_mob_ok.png) no-repeat;
+    }
+
+    .bt6-painel1.visto {
+        background: url(../../02/img/bt_esg_mob_ok.png) no-repeat;
+    }
+
+    .bt7-painel1.visto {
+        background: url(../../02/img/bt_deming_mob_ok.png) no-repeat;
+    }
+
+    .bt8-painel1.visto {
+        background: url(../../02/img/bt_malcon_mob_ok.png) no-repeat;
+    }
+
+    .bt9-painel1.visto {
+        background: url(../../02/img/bt_modelos_mob_ok.png) no-repeat;
+    }
+
+    .bt10-painel1.visto {
+        background: url(../../02/img/bt_quiz_mob_ok.png) no-repeat;
+    }
+
+    .bt11-painel1.visto {
+        background: url(../../02/img/bt_encerram_mob_ok.png) no-repeat;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+    body {
+        background: url(../../02/img/BG_mob.jpg) no-repeat;
+        background-size: 100% 100% !important;
+    }
+
+    .painel1 {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bt-painel1 {
+        position: unset;
+        scale: 0.9;
+        margin: 10px;
+    }
+
+    .bt1-painel1 {
+        width: 263px;
+        height: 185px;
+        background: url(../../02/img/bt_intro_mob.png) no-repeat;
+    }
+
+    .bt2-painel1 {
+        width: 227px;
+        height: 281px;
+        background: url(../../02/img/bt_meg_mob.png) no-repeat;
+    }
+
+    .bt3-painel1 {
+        width: 239px;
+        height: 295px;
+        background: url(../../02/img/bt_wcm_mob.png) no-repeat;
+    }
+
+    .bt4-painel1 {
+        width: 211px;
+        height: 286px;
+        background: url(../../02/img/bt_ibero_mob.png) no-repeat;
+    }
+
+    .bt5-painel1 {
+        width: 223px;
+        height: 279px;
+        background: url(../../02/img/bt_efqm_mob.png) no-repeat;
+    }
+
+    .bt6-painel1 {
+        width: 237px;
+        height: 295px;
+        background: url(../../02/img/bt_esg_mob.png) no-repeat;
+    }
+
+    .bt7-painel1 {
+        width: 229px;
+        height: 286px;
+        background: url(../../02/img/bt_deming_mob.png) no-repeat;
+    }
+
+    .bt8-painel1 {
+        width: 199px;
+        height: 274px;
+        background: url(../../02/img/bt_malcon_mob.png) no-repeat;
+    }
+
+    .bt9-painel1 {
+        width: 221px;
+        height: 286px;
+        background: url(../../02/img/bt_modelos_mob.png) no-repeat;
+    }
+
+    .bt10-painel1 {
+        width: 242px;
+        height: 278px;
+        background: url(../../02/img/bt_quiz_mob.png) no-repeat;
+    }
+
+    .bt11-painel1 {
+        width: 223px;
+        height: 280px;
+        background: url(../../02/img/bt_encerram_mob.png) no-repeat;
+    }
+
+    .bt1-painel1.visto {
+        background: url(../../02/img/bt_intro_mob_ok.png) no-repeat;
+    }
+
+    .bt2-painel1.visto {
+        background: url(../../02/img/bt_meg_mob_ok.png) no-repeat;
+    }
+
+    .bt3-painel1.visto {
+        background: url(../../02/img/bt_wcm_mob_ok.png) no-repeat;
+    }
+
+    .bt4-painel1.visto {
+        background: url(../../02/img/bt_ibero_mob_ok.png) no-repeat;
+    }
+
+    .bt5-painel1.visto {
+        background: url(../../02/img/bt_efqm_mob_ok.png) no-repeat;
+    }
+
+    .bt6-painel1.visto {
+        background: url(../../02/img/bt_esg_mob_ok.png) no-repeat;
+    }
+
+    .bt7-painel1.visto {
+        background: url(../../02/img/bt_deming_mob_ok.png) no-repeat;
+    }
+
+    .bt8-painel1.visto {
+        background: url(../../02/img/bt_malcon_mob_ok.png) no-repeat;
+    }
+
+    .bt9-painel1.visto {
+        background: url(../../02/img/bt_modelos_mob_ok.png) no-repeat;
+    }
+
+    .bt10-painel1.visto {
+        background: url(../../02/img/bt_quiz_mob_ok.png) no-repeat;
+    }
+
+    .bt11-painel1.visto {
+        background: url(../../02/img/bt_encerram_mob_ok.png) no-repeat;
+    }
+}
