@@ -88,8 +88,8 @@ tr {
 
 /* FIM ELIPSE E ALTERAÇÕES TABELAS */
 
-/* INICIO PAINEL CLICAVEL 2 */
-.painel2 {
+/* INICIO PAINEL CLICAVEL 1 */
+.painel1 {
     /* background-image: url(../../02/img/painel_tangram_bg.png); */
     background-repeat: no-repeat;
     background-size: contain;
@@ -98,12 +98,12 @@ tr {
     margin-bottom: 40px;
 }
 
-.bt-painel2 {
+.bt-painel1 {
     border: none;
     position: relative;
 }
 
-.bt1-painel2 {
+.bt1-painel1 {
     background-image: url(../../02/img/painel_tangram_bt1.png);
     width: 407px;
     height: 54px;
@@ -111,7 +111,7 @@ tr {
     right: 20px;
 }
 
-.bt6-painel2 {
+.bt6-painel1 {
     background-image: url(../../02/img/painel_tangram_bt2.png);
     width: 315px;
     height: 629px;
@@ -119,7 +119,7 @@ tr {
     right: 20px;
 }
 
-.bt5-painel2 {
+.bt5-painel1 {
     background-image: url(../../02/img/painel_tangram_bt3.png);
     width: 456px;
     height: 155px;
@@ -127,7 +127,7 @@ tr {
     right: 20px;
 }
 
-.bt8-painel2 {
+.bt8-painel1 {
     background-image: url(../../02/img/painel_tangram_bt4.png);
     width: 315px;
     height: 314px;
@@ -135,7 +135,7 @@ tr {
     right: 20px;
 }
 
-.bt2-painel2 {
+.bt2-painel1 {
     background-image: url(../../02/img/painel_tangram_bt5.png);
     width: 282px;
     height: 141px;
@@ -143,7 +143,7 @@ tr {
     right: 20px;
 }
 
-.bt3-painel2 {
+.bt3-painel1 {
     background-image: url(../../02/img/painel_tangram_bt6.png);
     width: 302px;
     height: 302px;
@@ -151,7 +151,7 @@ tr {
     right: 20px;
 }
 
-.bt7-painel2 {
+.bt7-painel1 {
     background-image: url(../../02/img/painel_tangram_bt7.png);
     width: 152px;
     height: 301px;
@@ -159,7 +159,7 @@ tr {
     right: 20px;
 }
 
-.bt4-painel2 {
+.bt4-painel1 {
     background-image: url(../../02/img/painel_tangram_bt8.png);
     width: 630px;
     height: 316px;
@@ -167,7 +167,7 @@ tr {
     right: 20px;
 }
 
-/* FIM PAINEL CLICAVEL 2 */
+/* FIM PAINEL CLICAVEL 1 */
 
 /* INICIO CUSTOMIZAÇÃO PÁGINA */
 /* #topo,
@@ -195,7 +195,7 @@ body {
     background-attachment: fixed;
 }
 
-.ambiente {
+.deslocado {
     display: flex;
     width: 50%;
     margin-left: 300px;
@@ -208,3 +208,504 @@ body {
 } */
 
 /* FIM CUSTOMIZAÇÃO PÁGINA */
+
+/* INICIO PAINEL CLICAVEL 3 */
+.painel3 {
+    background-image: url(../../02/img/info3_personagem.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 403px;
+    margin-top: 150px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.bt1-painel3 {
+    background-image: url(../../02/img/info3_bt2.png);
+    width: 193px;
+    height: 99px;
+    top: -25px;
+    right: 30px;
+    border: none;
+    background-color: transparent;
+    position: relative;
+}
+
+.bt1-painel3:hover {
+    background-image: url(../../02/img/info3_bt2_hv.png);
+}
+
+.bt2-painel3 {
+    background-image: url(../../02/img/info3_bt1.png);
+    width: 193px;
+    height: 100px;
+    top: -110px;
+    right: 40px;
+    border: none;
+    background-color: transparent;
+    position: relative;
+}
+
+.bt2-painel3:hover {
+    background-image: url(../../02/img/info3_bt1_hv.png);
+}
+
+.bt3-painel3 {
+    background-image: url(../../02/img/info3_bt3.png);
+    width: 193px;
+    height: 99px;
+    top: -30px;
+    right: 40px;
+    border: none;
+    background-color: transparent;
+    position: relative;
+}
+
+.bt3-painel3:hover {
+    background-image: url(../../02/img/info3_bt3_hv.png);
+}
+
+/* FIM PAINEL CLICAVEL 3 */
+
+/* INICIO PAINEL CLICAVEL 2 */
+.painel2 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.bt-painel2 {
+    border: none;
+    width: 128px;
+    height: 128px;
+    transition: transform 0.3s ease;
+}
+
+.bt-painel2:hover {
+    transform: scale(1.1);
+}
+
+.bt1-painel2 {
+    background-image: url(../../02/img/painelODS_bt1.png);
+}
+
+.bt2-painel2 {
+    background-image: url(../../02/img/painelODS_bt2.png);
+}
+
+.bt3-painel2 {
+    background-image: url(../../02/img/painelODS_bt3.png);
+}
+
+.bt4-painel2 {
+    background-image: url(../../02/img/painelODS_bt4.png);
+}
+
+.bt5-painel2 {
+    background-image: url(../../02/img/painelODS_bt5.png);
+}
+
+.bt6-painel2 {
+    background-image: url(../../02/img/painelODS_bt6.png);
+}
+
+.bt7-painel2 {
+    background-image: url(../../02/img/painelODS_bt7.png);
+}
+
+.bt8-painel2 {
+    background-image: url(../../02/img/painelODS_bt8.png);
+}
+
+.bt9-painel2 {
+    background-image: url(../../02/img/painelODS_bt9.png);
+}
+
+.bt10-painel2 {
+    background-image: url(../../02/img/painelODS_bt10.png);
+}
+
+.bt11-painel2 {
+    background-image: url(../../02/img/painelODS_bt11.png);
+}
+
+.bt12-painel2 {
+    background-image: url(../../02/img/painelODS_bt12.png);
+}
+
+.bt13-painel2 {
+    background-image: url(../../02/img/painelODS_bt13.png);
+}
+
+.bt14-painel2 {
+    background-image: url(../../02/img/painelODS_bt14.png);
+}
+
+.bt15-painel2 {
+    background-image: url(../../02/img/painelODS_bt15.png);
+}
+
+.bt16-painel2 {
+    background-image: url(../../02/img/painelODS_bt16.png);
+}
+
+.bt17-painel2 {
+    background-image: url(../../02/img/painelODS_bt17.png);
+}
+
+.bt18-painel2 {
+    background-image: url(../../02/img/painelODS_bt18.png);
+}
+
+/* FIM PAINEL CLICAVEL 2 */
+
+/* INICIO MARCADOR 2 */
+.marcador2 {
+    list-style: none;
+    padding: 0;
+}
+
+.marcador2 li {
+    position: relative;
+    padding-left: 30px;
+    line-height: 1.5;
+}
+
+.marcador2 li::before {
+    content: "";
+    background-image: url('../../02/img/marcador_circle.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 21px;
+    height: 21px;
+}
+
+/* FIM MARCADOR 2 */
+
+/* INICIO MARCADOR 3 */
+.marcador3 {
+    list-style: none;
+    padding: 0;
+}
+
+.marcador3 li {
+    position: relative;
+    padding-left: 45px;
+    line-height: 1.5;
+}
+
+.espaco {
+    margin-left: 50px;
+}
+
+.marcador3 li::before {
+    content: "";
+    background-image: url('../../02/img/marcador_star.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 35px;
+    height: 35px;
+}
+
+/* FIM MARCADOR 3 */
+.nav-tabs .nav-link {
+    border-radius: 15px 15px 0 0;
+}
+
+/* INICIO MARCADOR 4 */
+.marcador4 {
+    list-style: none;
+    padding: 0;
+}
+
+.marcador4 li {
+    position: relative;
+    padding-left: 40px;
+    line-height: 1.5;
+}
+
+.marcador4 .marcador_1::before {
+    content: "";
+    background-image: url('../../02/img/marcador_a.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 25px;
+    height: 25px;
+}
+
+.marcador4 .marcador_2::before {
+    content: "";
+    background-image: url('../../02/img/marcador_b.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 25px;
+    height: 25px;
+}
+
+.marcador4 .marcador_3::before {
+    content: "";
+    background-image: url('../../02/img/marcador_b.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 25px;
+    height: 25px;
+}
+
+.marcador4 .marcador_4::before {
+    content: "";
+    background-image: url('../../02/img/marcador_b.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 25px;
+    height: 25px;
+}
+
+.marcador4 .marcador_5::before {
+    content: "";
+    background-image: url('../../02/img/marcador_b.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 25px;
+    height: 25px;
+}
+
+.marcador4 .marcador_6::before {
+    content: "";
+    background-image: url('../../02/img/marcador_b.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 25px;
+    height: 25px;
+}
+
+.marcador4 .marcador_7::before {
+    content: "";
+    background-image: url('../../02/img/marcador_b.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 25px;
+    height: 25px;
+}
+
+.marcador4 .marcador_8::before {
+    content: "";
+    background-image: url('../../02/img/marcador_b.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 25px;
+    height: 25px;
+}
+
+.marcador4 .marcador_9::before {
+    content: "";
+    background-image: url('../../02/img/marcador_b.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 25px;
+    height: 25px;
+}
+
+.marcador4 .marcador_10::before {
+    content: "";
+    background-image: url('../../02/img/marcador_b.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 25px;
+    height: 25px;
+}
+
+/* FIM MARCADOR 4 */
+
+/* INICIO PAINEL CLICAVEL 2 */
+.painel4 {
+    margin-top: 40px;
+    margin-bottom: 100px;
+    background-image: url(../../02/img/painel_perfil_BG.png);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bt-painel4 {
+    border: none;
+    width: 181px;
+    height: 113px;
+    background-color: transparent;
+    position: relative;
+}
+
+.bt1-painel4 {
+    background-image: url(../../02/img/painel_perfil_bt1.png);
+    top: 335px;
+    right: 20px;
+}
+
+.bt2-painel4 {
+    background-image: url(../../02/img/painel_perfil_bt2.png);
+    top: 190px;
+    right: -25px;
+}
+
+.bt3-painel4 {
+    background-image: url(../../02/img/painel_perfil_bt3.png);
+    top: 498px;
+    right: 160px;
+}
+
+.bt4-painel4 {
+    background-image: url(../../02/img/painel_perfil_bt4.png);
+    width: 437px;
+    height: 92px;
+    top: 600px;
+    right: -245px;
+}
+
+.bt5-painel4 {
+    background-image: url(../../02/img/painel_perfil_bt5.png);
+    top: 70px;
+    right: -85px;
+}
+
+.bt6-painel4 {
+    background-image: url(../../02/img/painel_perfil_bt6.png);
+    top: 380px;
+    right: 110px;
+}
+
+.bt7-painel4 {
+    background-image: url(../../02/img/painel_perfil_bt7.png);
+    top: 105px;
+    right: -760px;
+}
+
+.bt1-painel4:hover {
+    background-image: url(../../02/img/painel_perfil_bt1_hv.png);
+}
+
+.bt2-painel4:hover {
+    background-image: url(../../02/img/painel_perfil_bt2_hv.png);
+}
+
+.bt3-painel4:hover {
+    background-image: url(../../02/img/painel_perfil_bt3_hv.png);
+}
+
+.bt4-painel4:hover {
+    background-image: url(../../02/img/painel_perfil_bt4_hv.png);
+}
+
+.bt5-painel4:hover {
+    background-image: url(../../02/img/painel_perfil_bt5_hv.png);
+}
+
+.bt6-painel4:hover {
+    background-image: url(../../02/img/painel_perfil_bt6_hv.png);
+}
+
+.bt7-painel4:hover {
+    background-image: url(../../02/img/painel_perfil_bt7_hv.png);
+}
+
+/* FIM PAINEL CLICAVEL 4 */
+@media screen and (max-width:600px) {
+    .table-responsive {
+        overflow-x: auto !important;
+    }
+
+    .painel3 {
+        background-image: url(../../02/img/info3_mob_personagem.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        height: 326px;
+        margin-top: 340px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bt1-painel3 {
+        background-image: url(../../02/img/info3_bt2.png), url(../../02/img/info3_mob_bolha.png);
+        background-repeat: no-repeat;
+        background-position: 0px top, 0px bottom;
+        top: -170px;
+        right: 0;
+    }
+
+    .bt2-painel3 {
+        background-image: url(../../02/img/info3_bt1.png), url(../../02/img/info3_mob_bolha.png);
+        background-repeat: no-repeat;
+        background-position: 0px top, 0px bottom;
+        top: -420px;
+        right: 0;
+    }
+
+    .bt3-painel3 {
+        top: -330px;
+        right: 0;
+    }
+
+    .bt1-painel3:hover {
+        background-image: url(../../02/img/info3_bt2_hv.png), url(../../02/img/info3_mob_bolha.png);
+        background-repeat: no-repeat;
+        background-position: 0px top, 0px bottom;
+    }
+
+    .bt2-painel3:hover {
+        background-image: url(../../02/img/info3_bt1_hv.png), url(../../02/img/info3_mob_bolha.png);
+        background-repeat: no-repeat;
+        background-position: 0px top, 0px bottom;
+    }
+}
