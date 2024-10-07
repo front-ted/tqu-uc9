@@ -3,3 +3,7 @@
 p {
     word-wrap: break-word;
 }
+
+body {
+    background-image: radial-gradient(farthest-corner at -2% 25%, #92ACCE 0%, transparent 25%), radial-gradient(farthest-corner at 50% 230%, #C489BB 20%, transparent 50%);
+}

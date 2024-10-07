@@ -90,73 +90,43 @@ tr {
 
 /* INICIO PAINEL CLICAVEL 1 */
 .painel1 {
-    /* background-image: url(../../02/img/painel_tangram_bg.png); */
+    background-image: url(../../02/img/painel_tangram_bg2.png);
     background-repeat: no-repeat;
-    background-size: contain;
-    height: 817px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    background-size: 100% 100%;
+    height: 880px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    scale: 0.9;
 }
 
 .bt-painel1 {
     border: none;
     position: relative;
+    background-color: transparent;
 }
 
 .bt1-painel1 {
     background-image: url(../../02/img/painel_tangram_bt1.png);
     width: 407px;
     height: 54px;
-    top: 20px;
-    right: 20px;
-}
-
-.bt6-painel1 {
-    background-image: url(../../02/img/painel_tangram_bt2.png);
-    width: 315px;
-    height: 629px;
-    top: 20px;
-    right: 20px;
-}
-
-.bt5-painel1 {
-    background-image: url(../../02/img/painel_tangram_bt3.png);
-    width: 456px;
-    height: 155px;
-    top: 20px;
-    right: 20px;
-}
-
-.bt8-painel1 {
-    background-image: url(../../02/img/painel_tangram_bt4.png);
-    width: 315px;
-    height: 314px;
-    top: 20px;
-    right: 20px;
+    top: -70px;
+    right: -220px;
 }
 
 .bt2-painel1 {
     background-image: url(../../02/img/painel_tangram_bt5.png);
     width: 282px;
     height: 141px;
-    top: 20px;
-    right: 20px;
+    top: 280px;
+    right: 110px;
 }
 
 .bt3-painel1 {
     background-image: url(../../02/img/painel_tangram_bt6.png);
     width: 302px;
     height: 302px;
-    top: 20px;
-    right: 20px;
-}
-
-.bt7-painel1 {
-    background-image: url(../../02/img/painel_tangram_bt7.png);
-    width: 152px;
-    height: 301px;
-    top: 20px;
-    right: 20px;
+    top: 150px;
+    right: -470px;
 }
 
 .bt4-painel1 {
@@ -164,13 +134,77 @@ tr {
     width: 630px;
     height: 316px;
     top: 20px;
-    right: 20px;
+    right: -140px;
+}
+
+.bt5-painel1 {
+    background-image: url(../../02/img/painel_tangram_bt3.png);
+    width: 456px;
+    height: 155px;
+    top: -1155px;
+    right: -130px;
+}
+
+.bt6-painel1 {
+    background-image: url(../../02/img/painel_tangram_bt2.png);
+    width: 315px;
+    height: 629px;
+    top: -640px;
+    right: 355px;
+}
+
+.bt7-painel1 {
+    background-image: url(../../02/img/painel_tangram_bt7.png);
+    width: 152px;
+    height: 301px;
+    top: -945px;
+    right: -650px;
+}
+
+.bt8-painel1 {
+    background-image: url(../../02/img/painel_tangram_bt4.png);
+    width: 315px;
+    height: 314px;
+    top: -1320px;
+    right: -330px;
+}
+
+.bt1-painel1:hover {
+    background-image: url(../../02/img/painel_tangram_bt1_hv.png);
+}
+
+.bt2-painel1:hover {
+    background-image: url(../../02/img/painel_tangram_bt5_hv.png);
+}
+
+.bt3-painel1:hover {
+    background-image: url(../../02/img/painel_tangram_bt6_hv.png);
+}
+
+.bt4-painel1:hover {
+    background-image: url(../../02/img/painel_tangram_bt8_hv.png);
+}
+
+.bt5-painel1:hover {
+    background-image: url(../../02/img/painel_tangram_bt3_hv.png);
+}
+
+.bt6-painel1:hover {
+    background-image: url(../../02/img/painel_tangram_bt2_hv.png);
+}
+
+.bt7-painel1:hover {
+    background-image: url(../../02/img/painel_tangram_bt7_hv.png);
+}
+
+.bt8-painel1:hover {
+    background-image: url(../../02/img/painel_tangram_bt4_hv.png);
 }
 
 /* FIM PAINEL CLICAVEL 1 */
 
 /* INICIO CUSTOMIZAÇÃO PÁGINA */
-/* #topo,
+#topo,
 .prognroll-bar {
     background: url(../../02/img/BG_topo1.jpg) no-repeat;
     background-size: 100% 100%;
@@ -189,24 +223,179 @@ tr {
 }
 
 body {
-    margin: 0;
     background-image: url(../../02/img/BG_quadro.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
 
-.deslocado {
-    display: flex;
-    width: 50%;
-    margin-left: 300px;
+.pagina .container {
+    background: url(../../02/img/BG_papel.jpg);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 30px 40px;
+    border-radius: 5px;
+    filter: drop-shadow(#000 0px 4px 4px);
 }
 
-.container {
-    background: url(../../02/img/BG_papel.jpg);
-    overflow: hidden;
-    position: relative;
-} */
+.faixa {
+    height: 5px;
+    background: linear-gradient(to right, #004788, #80acd3, #e3908c);
+    width: 100%;
+    border-radius: 20px;
+    margin-top: -35px;
+    margin-bottom: 40px;
+}
 
+/* INICIO IMAGENS LATERAIS */
+.rellax {
+    position: absolute;
+    z-index: 15;
+    width: 35%;
+}
+
+.rellax-1,
+.rellax-2,
+.rellax-3,
+.rellax-4,
+.rellax-5,
+.rellax-6,
+.rellax-7,
+.rellax-8,
+.rellax-9 {
+    right: -345px;
+    top: 900px;
+}
+
+.rellax-10 {
+    left: -370px;
+    top: 1080px;
+}
+
+.rellax-11 {
+    left: -370px;
+    top: 2600px;
+}
+
+.rellax-12 {
+    left: -370px;
+    top: 4600px;
+}
+
+.rellax-13 {
+    left: -370px;
+    top: 6982px;
+}
+
+.rellax-14 {
+    left: -370px;
+    bottom: 2185px;
+}
+
+.rellax-15 {
+    left: -370px;
+    bottom: 280px;
+}
+
+.rellax-16 {
+    left: -370px;
+    bottom: -880px;
+}
+
+.rellax-17 {
+    left: -470px;
+    top: 1080px;
+}
+
+.rellax-18 {
+    left: -470px;
+    top: 2177px;
+}
+
+.rellax-19 {
+    left: -470px;
+    top: 1530px;
+}
+
+.rellax-20 {
+    left: -470px;
+    top: 3060px;
+}
+
+.rellax-21 {
+    left: -470px;
+    top: 1690px;
+}
+
+.rellax-22 {
+    left: -470px;
+    top: 3370px;
+}
+
+.rellax-23 {
+    left: -470px;
+    top: 1195px;
+}
+
+.rellax-24 {
+    left: -470px;
+    top: 2862px;
+}
+
+.rellax-25 {
+    left: -470px;
+    top: 4235px;
+}
+
+.rellax-26 {
+    left: -470px;
+    top: 1180px;
+}
+
+.rellax-27 {
+    left: -470px;
+    top: 2480px;
+}
+
+.rellax-28 {
+    left: -470px;
+    top: 1090px;
+}
+
+.rellax-29 {
+    left: -470px;
+    top: 2180px;
+}
+
+.rellax-30 {
+    left: -470px;
+    top: 1430px;
+}
+
+.rellax-31 {
+    left: -470px;
+    top: 2875px;
+}
+
+.rellax-32 {
+    left: -470px;
+    top: 4315px;
+}
+
+.rellax-33 {
+    left: -470px;
+    top: 1430px;
+}
+
+.rellax-34 {
+    left: -470px;
+    top: 2875px;
+}
+
+.rellax-35 {
+    left: -470px;
+    top: 4315px;
+}
+
+/* FIM IMAGENS LATERAIS */
 /* FIM CUSTOMIZAÇÃO PÁGINA */
 
 /* INICIO PAINEL CLICAVEL 3 */
@@ -436,12 +625,12 @@ body {
 
 .marcador4 .marcador_1::before {
     content: "";
-    background-image: url('../../02/img/marcador_a.png');
+    background-image: url('../../02/img/marcador_01.png');
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
     left: 0;
-    top: 50%;
+    top: 27%;
     transform: translateY(-50%);
     width: 25px;
     height: 25px;
@@ -449,12 +638,12 @@ body {
 
 .marcador4 .marcador_2::before {
     content: "";
-    background-image: url('../../02/img/marcador_b.png');
+    background-image: url('../../02/img/marcador_02.png');
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
     left: 0;
-    top: 50%;
+    top: 27%;
     transform: translateY(-50%);
     width: 25px;
     height: 25px;
@@ -462,12 +651,12 @@ body {
 
 .marcador4 .marcador_3::before {
     content: "";
-    background-image: url('../../02/img/marcador_b.png');
+    background-image: url('../../02/img/marcador_03.png');
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
     left: 0;
-    top: 50%;
+    top: 27%;
     transform: translateY(-50%);
     width: 25px;
     height: 25px;
@@ -475,12 +664,12 @@ body {
 
 .marcador4 .marcador_4::before {
     content: "";
-    background-image: url('../../02/img/marcador_b.png');
+    background-image: url('../../02/img/marcador_04.png');
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
     left: 0;
-    top: 50%;
+    top: 27%;
     transform: translateY(-50%);
     width: 25px;
     height: 25px;
@@ -488,12 +677,12 @@ body {
 
 .marcador4 .marcador_5::before {
     content: "";
-    background-image: url('../../02/img/marcador_b.png');
+    background-image: url('../../02/img/marcador_05.png');
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
     left: 0;
-    top: 50%;
+    top: 27%;
     transform: translateY(-50%);
     width: 25px;
     height: 25px;
@@ -501,12 +690,12 @@ body {
 
 .marcador4 .marcador_6::before {
     content: "";
-    background-image: url('../../02/img/marcador_b.png');
+    background-image: url('../../02/img/marcador_06.png');
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
     left: 0;
-    top: 50%;
+    top: 27%;
     transform: translateY(-50%);
     width: 25px;
     height: 25px;
@@ -514,12 +703,12 @@ body {
 
 .marcador4 .marcador_7::before {
     content: "";
-    background-image: url('../../02/img/marcador_b.png');
+    background-image: url('../../02/img/marcador_07.png');
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
     left: 0;
-    top: 50%;
+    top: 27%;
     transform: translateY(-50%);
     width: 25px;
     height: 25px;
@@ -527,12 +716,12 @@ body {
 
 .marcador4 .marcador_8::before {
     content: "";
-    background-image: url('../../02/img/marcador_b.png');
+    background-image: url('../../02/img/marcador_08.png');
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
     left: 0;
-    top: 50%;
+    top: 27%;
     transform: translateY(-50%);
     width: 25px;
     height: 25px;
@@ -540,12 +729,12 @@ body {
 
 .marcador4 .marcador_9::before {
     content: "";
-    background-image: url('../../02/img/marcador_b.png');
+    background-image: url('../../02/img/marcador_09.png');
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
     left: 0;
-    top: 50%;
+    top: 27%;
     transform: translateY(-50%);
     width: 25px;
     height: 25px;
@@ -553,12 +742,12 @@ body {
 
 .marcador4 .marcador_10::before {
     content: "";
-    background-image: url('../../02/img/marcador_b.png');
+    background-image: url('../../02/img/marcador_10.png');
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
     left: 0;
-    top: 50%;
+    top: 27%;
     transform: translateY(-50%);
     width: 25px;
     height: 25px;
@@ -568,12 +757,13 @@ body {
 
 /* INICIO PAINEL CLICAVEL 2 */
 .painel4 {
-    margin-top: 40px;
-    margin-bottom: 100px;
+    margin-top: 10px;
+    margin-bottom: 40px;
     background-image: url(../../02/img/painel_perfil_BG.png);
     height: 800px;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
+    scale: 0.9;
 }
 
 .bt-painel4 {
@@ -657,9 +847,98 @@ body {
 }
 
 /* FIM PAINEL CLICAVEL 4 */
+@media screen and (max-width:1440px) {
+    .rellax {
+        position: absolute;
+        z-index: 15;
+        width: 25%;
+    }
+
+    .rellax-1,
+    .rellax-2,
+    .rellax-3,
+    .rellax-4,
+    .rellax-5,
+    .rellax-6,
+    .rellax-7,
+    .rellax-8,
+    .rellax-9 {
+        right: -240px;
+        top: 900px;
+    }
+
+    .rellax-17,
+    .rellax-18,
+    .rellax-19,
+    .rellax-20,
+    .rellax-21,
+    .rellax-22,
+    .rellax-23,
+    .rellax-24,
+    .rellax-25,
+    .rellax-26,
+    .rellax-27,
+    .rellax-28,
+    .rellax-29,
+    .rellax-30,
+    .rellax-31,
+    .rellax-32,
+    .rellax-33,
+    .rellax-34,
+    .rellax-35 {
+        left: -240px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+
+    .rellax-1,
+    .rellax-2,
+    .rellax-3,
+    .rellax-4,
+    .rellax-5,
+    .rellax-6,
+    .rellax-7,
+    .rellax-8,
+    .rellax-9,
+    .rellax-10,
+    .rellax-11,
+    .rellax-12,
+    .rellax-13,
+    .rellax-14,
+    .rellax-15,
+    .rellax-16,
+    .rellax-17,
+    .rellax-18,
+    .rellax-19,
+    .rellax-20,
+    .rellax-21,
+    .rellax-22,
+    .rellax-23,
+    .rellax-24,
+    .rellax-25,
+    .rellax-26,
+    .rellax-27,
+    .rellax-28,
+    .rellax-29,
+    .rellax-30,
+    .rellax-31,
+    .rellax-32,
+    .rellax-33,
+    .rellax-34,
+    .rellax-35 {
+        display: none !important;
+    }
+}
+
 @media screen and (max-width:600px) {
     .table-responsive {
         overflow-x: auto !important;
+    }
+
+    .esquemaDaBru .alt-c,
+    .esquemaDaBru .alt-e {
+        width: 55% !important;
     }
 
     .painel3 {
