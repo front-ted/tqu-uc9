@@ -1,5 +1,17 @@
 @charset "utf-8";
 
+.accordion-body {
+    padding: 10px 20px 5px !important;
+}
+
+.accordion-body p {
+    margin-bottom: 0px !important;
+}
+
+.accordion-item {
+    background-color: transparent !important;
+}
+
 /* INICIO BLOCOS */
 .bloco1 {
     background: url(../../01/img/BG1.jpg) no-repeat;
@@ -201,6 +213,20 @@
 }
 
 .bt-painel3:hover {
+    animation: rotacionar 3s linear;
+}
+
+@keyframes rotacionar {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(15deg);
+    }
+}
+
+.bt-painel3:hover {
     background: url(../../01/img/painel2_bt_hv.png) no-repeat;
 }
 
@@ -245,6 +271,7 @@
 
 .bt2-painel3::after {
     content: "World class manufacturing";
+    font-style: italic;
 }
 
 .bt3-painel3::after {
@@ -257,6 +284,7 @@
 
 .bt5-painel3::after {
     content: "Environmental, social and governance";
+    font-style: italic;
 }
 
 .bt6-painel3::after {
@@ -377,22 +405,27 @@ footer {
 
 .organizacional1 .modal-body {
     background: url(../../01/img/BG_modal80_1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: -100px center;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
     border: none;
 }
 
 .organizacional2 .modal-body {
     background: url(../../01/img/BG_modal80_2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: -100px center;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
     border: none;
 }
 
 .modal-80 .modal-header {
     background: url(../../01/img/BG_modal80_1.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    border: none;
 }
 
 .modal-80 .modal-header h5 {
@@ -477,6 +510,10 @@ footer {
         flex-direction: column;
     }
 
+    .marcador2 li::before {
+        top: 19%;
+    }
+
     .bt-painel1 {
         margin-right: 0;
         margin-left: 0;
@@ -488,11 +525,15 @@ footer {
     }
 
     .bt2-painel1 {
-        position: unset;
+        position: relative;
+        right: -15px;
+        top: 0;
     }
 
     .bt3-painel1 {
-        position: unset;
+        position: relative;
+        right: -15px;
+        top: 0;
     }
 }
 
@@ -500,6 +541,8 @@ footer {
     .bloco-paralax1 .container {
         padding-right: unset;
         padding-top: 10px;
+        padding-right: 50px;
+        padding-left: 50px;
     }
 
     .bloco-paralax1 {
@@ -522,6 +565,8 @@ footer {
     .bloco-paralax3 .container {
         padding-right: unset;
         padding-top: 10px;
+        padding-right: 30px;
+        padding-left: 30px;
     }
 
     .painel2 {
@@ -544,5 +589,32 @@ footer {
         margin-top: -5%;
         position: absolute;
         left: 38%;
+    }
+
+    .modal-80 .accordion-button {
+        width: 125%;
+        padding-left: 30px;
+    }
+
+    .bloco3 .accordion-body {
+        margin-left: 20px;
+    }
+
+    .voltar-topo {
+        right: 5px;
+    }
+
+    .marcador2 li::before {
+        top: 7%;
+    }
+
+    .modal-80 figure {
+        scale: 1.2;
+        margin-bottom: 75px;
+        margin-top: 40px;
+    }
+
+    .bt-painel3 {
+        margin-bottom: 40px;
     }
 }
