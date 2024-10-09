@@ -11,7 +11,7 @@
 }
 
 body {
-    background: url(../../02/img/BG_modelo.jpg) no-repeat;
+    background: url(../../02/img/BG.jpg) no-repeat;
     background-size: 100% 100% !important;
 }
 
@@ -22,6 +22,7 @@ body {
 }
 
 .bt1-painel1 {
+    background: url(../../02/img/bt_intro.png) no-repeat;
     width: 311px;
     height: 218px;
     top: 90px;
@@ -29,6 +30,7 @@ body {
 }
 
 .bt2-painel1 {
+    background: url(../../02/img/bt_meg.png) no-repeat;
     width: 247px;
     height: 275px;
     top: 325px;
@@ -36,6 +38,7 @@ body {
 }
 
 .bt3-painel1 {
+    background: url(../../02/img/bt_wcm.png) no-repeat;
     width: 239px;
     height: 295px;
     top: 690px;
@@ -43,6 +46,7 @@ body {
 }
 
 .bt4-painel1 {
+    background: url(../../02/img/bt_ibero.png) no-repeat;
     width: 222px;
     height: 301px;
     top: 170px;
@@ -50,6 +54,7 @@ body {
 }
 
 .bt5-painel1 {
+    background: url(../../02/img/bt_efqm.png) no-repeat;
     width: 235px;
     height: 293px;
     top: 530px;
@@ -57,6 +62,7 @@ body {
 }
 
 .bt6-painel1 {
+    background: url(../../02/img/bt_esg.png) no-repeat;
     width: 237px;
     height: 295px;
     top: 95px;
@@ -64,6 +70,7 @@ body {
 }
 
 .bt7-painel1 {
+    background: url(../../02/img/bt_deming.png) no-repeat;
     width: 241px;
     height: 300px;
     top: 420px;
@@ -71,6 +78,7 @@ body {
 }
 
 .bt8-painel1 {
+    background: url(../../02/img/bt_malcon.png) no-repeat;
     width: 209px;
     height: 288px;
     top: 738px;
@@ -78,6 +86,7 @@ body {
 }
 
 .bt9-painel1 {
+    background: url(../../02/img/bt_modelos.png) no-repeat;
     width: 231px;
     height: 300px;
     top: 85px;
@@ -85,6 +94,7 @@ body {
 }
 
 .bt10-painel1 {
+    background: url(../../02/img/bt_quiz.png) no-repeat;
     width: 254px;
     height: 292px;
     top: 390px;
@@ -92,6 +102,7 @@ body {
 }
 
 .bt11-painel1 {
+    background: url(../../02/img/bt_encerram.png) no-repeat;
     width: 235px;
     height: 294px;
     top: 700px;
@@ -505,7 +516,7 @@ body {
 
     .bt-painel1 {
         position: unset;
-        scale: 1.1;
+        scale: 1.1; 
         margin: 10px;
     }
 
@@ -637,7 +648,7 @@ body {
 
     .bt-painel1 {
         position: unset;
-        scale: 0.9;
+        scale: 1.1;
         margin: 10px;
     }
 

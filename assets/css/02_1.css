@@ -1,4 +1,5 @@
 @charset "utf-8";
+
 .accordion-body {
     padding: 10px 20px 5px !important;
 }
@@ -10,9 +11,17 @@
 .accordion-item {
     background-color: transparent !important;
 }
+
+li {
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
 .citacao_marcador {
     display: flex;
     justify-content: flex-end;
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
 }
 
 .espera {
@@ -113,6 +122,7 @@ tr {
     border: none;
     position: relative;
     background-color: transparent;
+    overflow: hidden;
 }
 
 .bt1-painel1 {
@@ -143,8 +153,8 @@ tr {
     background-image: url(../../02/img/painel_tangram_bt8.png);
     width: 630px;
     height: 316px;
-    top: 20px;
-    right: -140px;
+    top: 25px;
+    right: -125px;
 }
 
 .bt5-painel1 {
@@ -160,7 +170,7 @@ tr {
     width: 315px;
     height: 629px;
     top: -640px;
-    right: 355px;
+    right: 385px;
 }
 
 .bt7-painel1 {
@@ -232,18 +242,29 @@ tr {
     height: 48px;
 }
 
+/* body {
+    background-image: url(../../02/img/BG_quadro.jpg), url(../../02/img/BG_papel.jpg) !important;
+    background-position: right center, left center !important;
+    background-size: 60% 100%, 40% 100% !important;
+    background-attachment: fixed !important;
+} */
 body {
-    background-image: url(../../02/img/BG_quadro.jpg);
-    background-size: cover;
-    background-attachment: fixed;
+    background-image: url(../../02/img/BG_quadro2.jpg) !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
 }
 
 .pagina .container {
     background: url(../../02/img/BG_papel.jpg);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    padding: 30px 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
     border-radius: 5px;
     filter: drop-shadow(#000 0px 4px 4px);
+    max-width: 1011px;
+    margin-bottom: -15px;
 }
 
 .faixa {
@@ -941,6 +962,16 @@ body {
     }
 }
 
+@media screen and (max-width:768px) {
+    .table-responsive {
+        overflow-x: auto !important;
+    }
+
+    .game-associar-colunas button.item {
+        word-break: break-word;
+    }
+}
+
 @media screen and (max-width:600px) {
     .table-responsive {
         overflow-x: auto !important;
@@ -997,4 +1028,78 @@ body {
         background-repeat: no-repeat;
         background-position: 0px top, 0px bottom;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .marcador4 .marcador_1::before {
+        top: 7%;
+    }
+
+    .marcador4 .marcador_2::before {
+        top: 7%;
+    }
+
+    .marcador4 .marcador_3::before {
+        top: 10%;
+    }
+
+    .marcador4 .marcador_4::before {
+        top: 12%;
+    }
+
+    .marcador4 .marcador_5::before {
+        top: 7%;
+    }
+
+    .marcador4 .marcador_6::before {
+        top: 4%;
+    }
+
+    .marcador4 .marcador_7::before {
+        top: 5%;
+    }
+
+    .marcador4 .marcador_8::before {
+        top: 12%;
+    }
+
+    .marcador4 .marcador_9::before {
+        top: 11%;
+    }
+
+    .marcador4 .marcador_10::before {
+        top: 7%;
+    }
+
+    .marcador2 li::before {
+        top: 17%;
+    }
+
+    .voltar-topo {
+        z-index: 100;
+    }
+
+
+
+
+
+
+
+
+
+
+
 }
