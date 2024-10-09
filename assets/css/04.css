@@ -1,7 +1,28 @@
 @charset "utf-8";
 
 .accordion-body {
-    margin-left: -1px;
+    padding: 10px 20px 5px !important;
+}
+
+.accordion-body p {
+    margin-bottom: 0px !important;
+}
+
+.accordion-item {
+    background-color: transparent !important;
+}
+
+.citacao {
+    padding-right: 30px;
+    padding-left: 200px;
+
+}
+
+.destaque2 {
+    padding-left: 5px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 /* INICIO PAINEL CLICAVEL 1 */
@@ -86,6 +107,7 @@
     position: relative;
     padding-left: 30px;
     line-height: 1.5;
+    margin-bottom: 15px;
 }
 
 .marcador2 li::before {
@@ -95,7 +117,7 @@
     background-repeat: no-repeat;
     position: absolute;
     left: 0;
-    top: 50%;
+    top: 25%;
     transform: translateY(-50%);
     width: 10px;
     height: 11px;
@@ -128,7 +150,7 @@ footer {
 /* INICIO ALTERAÇÕES TABELAS */
 .elipse {
     position: absolute;
-    top: 10%;
+    top: 5%;
     left: -15%;
     width: 100%;
     height: 100%;
@@ -230,27 +252,27 @@ tr {
 
 .rellax-1 {
     left: -300px;
-    top: 5814px;
+    top: 6220px;
 }
 
 .rellax-2 {
     left: -300px;
-    top: 7262px;
+    top: 8795px;
 }
 
 .rellax-3 {
     left: -300px;
-    top: 8880px;
+    top: 10557px;
 }
 
 .rellax-4 {
     left: -300px;
-    top: 9328px;
+    top: 11084px;
 }
 
 .rellax-5 {
     left: -300px;
-    top: 10600px;
+    top: 12697px;
 }
 
 /* FIM IMAGENS LATERAIS */
@@ -258,8 +280,8 @@ tr {
 /* INICIO CONTROLES CAROUSEL */
 .carousel-control-prev {
     background: url(../../04/img/slide_bt_anterior.png) no-repeat;
-    left: 279px;
-    top: -90px;
+    left: 270px;
+    top: -110px;
     height: 32px !important;
     width: 33px !important;
 }
@@ -270,8 +292,8 @@ tr {
 
 .carousel-control-next {
     background: url(../../04/img/slide_bt_proximo.png) no-repeat;
-    right: 279px;
-    top: -90px;
+    right: 270px;
+    top: -110px;
     height: 32px !important;
     width: 33px !important;
 }
@@ -406,5 +428,24 @@ tr {
 
     .carousel {
         margin-bottom: 40px;
+    }
+
+    .citacao {
+        padding-left: 90px;
+    }
+
+    .marcador2 li::before {
+        top: 10%;
+    }
+
+    .bloco1 .modal-80 .container {
+        padding: unset;
+    }
+
+    .destaque2 {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 10px;
+        padding-bottom: 20px;
     }
 }

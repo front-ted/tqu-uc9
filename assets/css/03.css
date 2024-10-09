@@ -1,5 +1,17 @@
 @charset "utf-8";
 
+.accordion-body {
+    padding: 10px 20px 5px !important;
+}
+
+.accordion-body p {
+    margin-bottom: 0px !important;
+}
+
+.accordion-item {
+    background-color: transparent !important;
+}
+
 body {
     background-color: #FFF;
 }
@@ -507,5 +519,11 @@ tr {
 
     .painel2 {
         text-align: center;
+    }
+
+    .bloco4,
+    footer {
+        background: url(../../03/img/BG4.jpg) no-repeat, rgba(255, 255, 255, 0.7);
+        background-size: cover;
     }
 }

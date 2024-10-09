@@ -97,7 +97,8 @@ th,
 td,
 a {
     font-family: figtree;
-    font-size: 16px;
+    font-size: 18px;
+    /*ajustei estava com 16px a Tifa pediu para colocar 20pt, mas ai fica grande demais*/
 }
 
 b,

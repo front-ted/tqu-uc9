@@ -54,7 +54,7 @@
 
 .audio-player::after {
     content: '';
-    background: url('../images/podcas_dir.png') no-repeat;
+    background: url('../images/podcast_dir.png') no-repeat;
     height: 274px;
     width: 286px;
     position: absolute;

@@ -208,7 +208,7 @@
     height: 281px;
     width: 282px;
     border: none;
-    transition: transform 0.3s ease;
+    transition: transform 0.5s ease;
     position: relative;
 }
 
@@ -592,7 +592,7 @@ footer {
     }
 
     .modal-80 .accordion-button {
-        width: 125%;
+        width: 100%;
         padding-left: 30px;
     }
 
@@ -602,19 +602,18 @@ footer {
 
     .voltar-topo {
         right: 5px;
+        z-index: 10;
     }
 
     .marcador2 li::before {
-        top: 7%;
-    }
-
-    .modal-80 figure {
-        scale: 1.2;
-        margin-bottom: 75px;
-        margin-top: 40px;
+        top: 11%;
     }
 
     .bt-painel3 {
         margin-bottom: 40px;
+    }
+
+    .bloco3 .modal-body .container {
+        padding: unset;
     }
 }
