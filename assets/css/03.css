@@ -12,6 +12,21 @@
     background-color: transparent !important;
 }
 
+.tab-content {
+    padding: 20px;
+    padding-bottom: 0px;
+}
+
+li {
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.nav-item {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
 body {
     background-color: #FFF;
 }
@@ -202,7 +217,7 @@ body {
     background-repeat: no-repeat;
     position: absolute;
     left: 0;
-    top: 50%;
+    top: 27%;
     transform: translateY(-50%);
     width: 21px;
     height: 21px;
@@ -229,7 +244,7 @@ body {
     background-repeat: no-repeat;
     position: absolute;
     left: 0;
-    top: 50%;
+    top: 27%;
     transform: translateY(-50%);
     width: 25px;
     height: 25px;
@@ -242,7 +257,7 @@ body {
     background-repeat: no-repeat;
     position: absolute;
     left: 0;
-    top: 50%;
+    top: 27%;
     transform: translateY(-50%);
     width: 25px;
     height: 25px;
@@ -290,7 +305,7 @@ footer {
 /* INICIO ELIPSE E ALTERAÇÕES TABELAS */
 .elipse {
     position: absolute;
-    top: 10%;
+    top: 4%;
     left: -15%;
     width: 100%;
     height: 100%;
@@ -300,6 +315,10 @@ footer {
     border-radius: 50%;
     z-index: -1;
     opacity: 0.5;
+}
+
+.tabela1 .elipse {
+    top: 50%;
 }
 
 .table-responsive {
@@ -515,6 +534,11 @@ tr {
         margin-top: -5%;
         position: absolute;
         left: 38%;
+        z-index: 3;
+    }
+
+    .voltar-topo {
+        z-index: 100;
     }
 
     .painel2 {
@@ -525,5 +549,43 @@ tr {
     footer {
         background: url(../../03/img/BG4.jpg) no-repeat, rgba(255, 255, 255, 0.7);
         background-size: cover;
+        position: relative;
+        z-index: 1;
+    }
+
+    .bloco4::before,
+    footer::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(255, 255, 255, 0.7);
+        z-index: -1;
+    }
+
+    .marcador2 li::before {
+        top: 5%;
+    }
+
+    .marcador3 .marcador_a::before {
+        top: 8%;
+    }
+
+    .marcador3 .marcador_b::before {
+        top: 8%;
+    }
+
+    .modal-80 .container {
+        padding: unset;
+    }
+
+    .modal-80 .modal-body {
+        background: linear-gradient(to bottom, #ddeaf5, #fde8e8);
+    }
+
+    .modal-80 .modal-header {
+        background: #ddeaf5;
     }
 }
