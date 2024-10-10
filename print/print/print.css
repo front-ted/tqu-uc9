@@ -50,6 +50,7 @@
     color: #000 !important;
     box-shadow: none !important;
     text-shadow: none !important;
+    font-size: 18pt !important;
   }
 
   header {
@@ -138,10 +139,16 @@
     margin: 1rem 0;
     font-family: 'Libre Franklin Bold';
     color: black;
+    font-size: 20pt !important;
   }
 
   p {
-    font-size: 12pt;
+    font-size: 18pt !important;
+    color: black
+  }
+
+  li {
+    font-size: 18pt !important;
     color: black
   }
 
