@@ -7,3 +7,18 @@ p {
 body {
     background-image: radial-gradient(farthest-corner at -2% 25%, #92ACCE 0%, transparent 25%), radial-gradient(farthest-corner at 50% 230%, #C489BB 20%, transparent 50%);
 }
+li {
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.nav-item {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+@media screen and (max-width:500px) {
+    .voltar-topo {
+        right: 5px;
+        z-index: 100;
+    }
+}

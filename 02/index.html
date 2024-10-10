@@ -2755,11 +2755,31 @@
     <script src="../assets/js/geral.js"></script>
     <script>
         const botoes = document.querySelectorAll('.bt1-painel1, .bt2-painel1, .bt3-painel1, .bt4-painel1, .bt5-painel1, .bt6-painel1, .bt7-painel1, .bt8-painel1, .bt9-painel1, .bt10-painel1, .bt11-painel1');
-        botoes.forEach(botao => {
+
+        // Função para atualizar o estado dos botões com base no localStorage
+        function atualizarBotoes() {
+            botoes.forEach((botao, index) => {
+                if (localStorage.getItem(`botao-${index}`) === 'true') {
+                    botao.classList.add('visto');
+                }
+            });
+        }
+
+        // Função para lidar com o clique do botão
+        botoes.forEach((botao, index) => {
             botao.addEventListener('click', () => {
-                botao.classList.toggle('visto');
+                botao.classList.add('visto'); // Marca como visto
+                localStorage.setItem(`botao-${index}`, 'true'); // Salva o estado no localStorage
             });
         });
+
+        // Chama a função para atualizar os botões ao carregar a página
+        atualizarBotoes();
+
+        // Limpa o localStorage ao recarregar a página
+        window.onbeforeunload = function () {
+            localStorage.clear();
+        };
     </script>
     <script>
         var splide = new Splide('.splide', {
@@ -2793,7 +2813,7 @@
                         customButtonStyle: {
                             borderRadius: "6px",
                             size: "38px",
-                            horizontalMargin: "13px",
+                            horizontalMargin: "1px",
                             bottomMargin: "140px",
                             rightMargin: "40px"
                         }

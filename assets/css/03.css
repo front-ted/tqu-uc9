@@ -12,6 +12,11 @@
     background-color: transparent !important;
 }
 
+.accordion-button {
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .tab-content {
     padding: 20px;
     padding-bottom: 0px;
@@ -25,6 +30,10 @@ li {
 .nav-item {
     margin-bottom: 0px;
     margin-top: 0px;
+}
+
+.espaco {
+    margin-top: 50px;
 }
 
 body {
@@ -223,6 +232,10 @@ body {
     height: 21px;
 }
 
+.bolinha li::before {
+    top: 8%;
+}
+
 /* FIM MARCADOR 2 */
 
 /* INICIO MARCADOR 3 */
@@ -368,17 +381,17 @@ tr {
 
 .rellax-2 {
     left: -504px;
-    top: 9149px;
+    top: 10342px;
 }
 
 .rellax-3 {
     right: -369px;
-    top: 12758px;
+    top: 14455px;
 }
 
 .rellax-4 {
     left: -481px;
-    top: 15633px;
+    top: 17890px;
 }
 
 /* FIM IMAGENS LATERAIS */
@@ -390,64 +403,70 @@ tr {
 
 .modals4 .modal-body {
     background: url(../../03/img/bg_modal_secao4.jpg);
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
     border: none;
-    /* background-position: center; */
+    background-size: calc(80%) calc(100%);
 }
 
 .modals5 .modal-body {
     background: url(../../03/img/bg_modal_secao5.jpg);
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
     border: none;
-    /* background-position: center; */
+    background-size: calc(80%) calc(100%);
 }
 
 .modals6 .modal-body {
     background: url(../../03/img/bg_modal_secao6.jpg);
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
     border: none;
-    /* background-position: center; */
+    background-size: calc(80%) calc(100%);
 }
 
 .modals7 .modal-body {
     background: url(../../03/img/bg_modal_secao7.jpg);
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
     border: none;
-    /* background-position: center; */
+    background-size: calc(80%) calc(100%);
 }
 
 .modals8 .modal-body {
     background: url(../../03/img/bg_modal_secao8.jpg);
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
     border: none;
-    /* background-position: center; */
+    background-size: calc(80%) calc(100%);
 }
 
 .modals9 .modal-body {
     background: url(../../03/img/bg_modal_secao9.jpg);
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
     border: none;
-    /* background-position: center; */
+    background-size: calc(80%) calc(100%);
 }
 
 .modals10 .modal-body {
     background: url(../../03/img/bg_modal_secao10.jpg);
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
     border: none;
-    /* background-position: center; */
+    background-size: calc(80%) calc(100%);
 }
 
 .modal-80 .modal-header {
-    background: url(../../03/img/bg_modal_secao4.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: #ddeaf5;
+
 }
 
 .modal-80 .modal-header h5 {
@@ -510,6 +529,34 @@ tr {
         margin-top: 40px;
         margin-bottom: 40px;
     }
+
+    .modals4 .modal-body {
+        background-size: cover;
+    }
+
+    .modals5 .modal-body {
+        background-size: cover;
+    }
+
+    .modals6 .modal-body {
+        background-size: cover;
+    }
+
+    .modals7 .modal-body {
+        background-size: cover;
+    }
+
+    .modals8 .modal-body {
+        background-size: cover;
+    }
+
+    .modals9 .modal-body {
+        background-size: cover;
+    }
+
+    .modals10 .modal-body {
+        background-size: cover;
+    }
 }
 
 @media screen and (max-width:767px) {
@@ -538,6 +585,7 @@ tr {
     }
 
     .voltar-topo {
+        right: 5px;
         z-index: 100;
     }
 
@@ -587,5 +635,9 @@ tr {
 
     .modal-80 .modal-header {
         background: #ddeaf5;
+    }
+
+    .bolinha li::before {
+        top: 2%;
     }
 }

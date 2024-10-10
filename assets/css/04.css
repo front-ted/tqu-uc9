@@ -8,8 +8,23 @@
     margin-bottom: 0px !important;
 }
 
+.accordion-button {
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .accordion-item {
     background-color: transparent !important;
+}
+
+li {
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.nav-item {
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .citacao {
@@ -252,27 +267,27 @@ tr {
 
 .rellax-1 {
     left: -300px;
-    top: 6220px;
+    top: 6735px;
 }
 
 .rellax-2 {
     left: -300px;
-    top: 8795px;
+    top: 9421px;
 }
 
 .rellax-3 {
     left: -300px;
-    top: 10557px;
+    top: 11294px;
 }
 
 .rellax-4 {
     left: -300px;
-    top: 11084px;
+    top: 11861px;
 }
 
 .rellax-5 {
     left: -300px;
-    top: 12697px;
+    top: 13722px;
 }
 
 /* FIM IMAGENS LATERAIS */
@@ -422,12 +437,13 @@ tr {
     }
 
     .carousel-control-next {
-        right: 130px;
+        right: 120px;
         top: -40px;
     }
 
     .carousel {
         margin-bottom: 40px;
+        text-align: center;
     }
 
     .citacao {
@@ -447,5 +463,26 @@ tr {
         padding-right: 30px;
         padding-top: 10px;
         padding-bottom: 20px;
+    }
+
+    .voltar-topo {
+        right: 5px;
+        z-index: 100;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .carousel-control-prev {
+        left: 110px;
+        top: -40px;
+    }
+
+    .carousel-control-next {
+        right: 110px;
+        top: -40px;
+    }
+
+    .carousel {
+        text-align: center;
     }
 }

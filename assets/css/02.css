@@ -19,6 +19,7 @@ body {
     border: none;
     position: fixed;
     background-color: transparent;
+    scale: 1.0 !important;
 }
 
 .bt1-painel1 {
@@ -516,7 +517,7 @@ body {
 
     .bt-painel1 {
         position: unset;
-        scale: 1.1; 
+        scale: 1.1;
         margin: 10px;
     }
 

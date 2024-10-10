@@ -302,20 +302,13 @@
     }
 }
 
-/* @media screen and (max-width: 375px) {
-    .audio-player::before {
-        left: unset;
-        right: 25%;
-        scale: 0.8;
-        height: 290px;
-        top: 33%;
-    }
-
+@media screen and (max-width: 375px) {
     .audio-player::after {
-        right: unset;
-        left: 24%;
-        scale: 0.8;
-        height: 302px;
-        top: 31%;
+        content: '';
+        background: url('../images/podcast_mob_dir.png') no-repeat;
+        height: 188px;
+        width: 187px;
+        left: 28% !important;
+        top: 202px !important;
     }
-} */
+}

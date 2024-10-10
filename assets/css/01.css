@@ -12,6 +12,21 @@
     background-color: transparent !important;
 }
 
+.accordion-button {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+li {
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.nav-item {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
 /* INICIO BLOCOS */
 .bloco1 {
     background: url(../../01/img/BG1.jpg) no-repeat;
@@ -68,7 +83,7 @@
 }
 
 .bloco-paralax1 {
-    height: 450px;
+    height: 500px;
     background: url(../../01/img/parallax1.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -83,7 +98,7 @@
 }
 
 .bloco-paralax3 {
-    height: 500px;
+    height: 600px;
     background: url(../../01/img/parallax3.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -535,6 +550,14 @@ footer {
         right: -15px;
         top: 0;
     }
+
+    .bloco-paralax3 {
+        height: 650px;
+    }
+
+    .bloco-paralax1 {
+        height: 580px;
+    }
 }
 
 @media screen and (max-width:767px) {
@@ -582,6 +605,14 @@ footer {
         margin-left: unset;
         margin-bottom: 50px;
     }
+
+    .bloco-paralax3 {
+        height: 650px;
+    }
+
+    .bloco-paralax1 {
+        height: 580px;
+    }
 }
 
 @media screen and (max-width:500px) {
@@ -602,11 +633,11 @@ footer {
 
     .voltar-topo {
         right: 5px;
-        z-index: 10;
+        z-index: 100;
     }
 
     .marcador2 li::before {
-        top: 11%;
+        top: 20%;
     }
 
     .bt-painel3 {
@@ -615,5 +646,19 @@ footer {
 
     .bloco3 .modal-body .container {
         padding: unset;
+    }
+
+    .bloco-paralax3 {
+        height: 650px;
+    }
+
+    .bloco-paralax1 {
+        height: 580px;
+    }
+
+    .bloco5, footer {
+        background: url(../../01/img/BG_mob_encerramento.jpg) no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
     }
 }
