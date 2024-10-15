@@ -150,6 +150,7 @@
   margin-bottom: 1em;
   margin-left: 40px;
   margin-right: 40px;
+  text-align: center;
 }
 
 .pagina footer {
@@ -247,7 +248,8 @@
 
 .pagina img {
   display: inline-block;
-  max-width: 60% !important;
+  max-width: 100% !important;
+  text-align: center;
 }
 
 .pagina legend {

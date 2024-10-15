@@ -57,15 +57,33 @@
     display: none !important;
   }
 
-  img,
   .equacoes,
-  figure,
-  .print-proteger,
-  .figure-img {
+  .print-proteger {
     page-break-inside: avoid !important;
     max-width: 500px !important;
     margin: auto;
     display: block;
+  }
+
+  table {
+    width: 90% !important;
+  }
+
+  img {
+    display: inline-block;
+    width: 100% !important;
+    text-align: center;
+    margin: auto;
+  }
+
+  figure {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+    margin: auto;
   }
 
   a[href]:after {
