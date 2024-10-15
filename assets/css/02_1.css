@@ -999,8 +999,17 @@ body {
 
     .esquemaDaBru .alt-c,
     .esquemaDaBru .alt-e {
-        width: 55% !important;
+        word-wrap: break-word;
+        width: 70% !important;
     }
+
+    .f-positivo i,
+    .f-negativo i {
+        word-wrap: break-word;
+    }
+
+    .f-positivo,
+    .f-negativo {}
 
     .painel3 {
         background-image: url(../../02/img/info3_mob_personagem.png);
