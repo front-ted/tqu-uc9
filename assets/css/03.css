@@ -402,66 +402,66 @@ tr {
 }
 
 .modals4 .modal-body {
-    background: url(../../03/img/bg_modal_secao4.jpg);
+    background: url(../../03/img/BG_modal_secao.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     border: none;
-    background-size: calc(80%) calc(100%);
+    background-size: cover;
 }
 
 .modals5 .modal-body {
-    background: url(../../03/img/bg_modal_secao5.jpg);
+    background: url(../../03/img/BG_modal_secao.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     border: none;
-    background-size: calc(80%) calc(100%);
+    background-size: cover;
 }
 
 .modals6 .modal-body {
-    background: url(../../03/img/bg_modal_secao6.jpg);
+    background: url(../../03/img/BG_modal_secao.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     border: none;
-    background-size: calc(80%) calc(100%);
+    background-size: cover;
 }
 
 .modals7 .modal-body {
-    background: url(../../03/img/bg_modal_secao7.jpg);
+    background: url(../../03/img/BG_modal_secao.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     border: none;
-    background-size: calc(80%) calc(100%);
+    background-size: cover;
 }
 
 .modals8 .modal-body {
-    background: url(../../03/img/bg_modal_secao8.jpg);
+    background: url(../../03/img/BG_modal_secao.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     border: none;
-    background-size: calc(80%) calc(100%);
+    background-size: cover;
 }
 
 .modals9 .modal-body {
-    background: url(../../03/img/bg_modal_secao9.jpg);
+    background: url(../../03/img/BG_modal_secao.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     border: none;
-    background-size: calc(80%) calc(100%);
+    background-size: cover;
 }
 
 .modals10 .modal-body {
-    background: url(../../03/img/bg_modal_secao10.jpg);
+    background: url(../../03/img/BG_modal_secao.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     border: none;
-    background-size: calc(80%) calc(100%);
+    background-size: cover;
 }
 
 .modal-80 .modal-header {

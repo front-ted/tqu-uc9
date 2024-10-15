@@ -80,8 +80,8 @@ body {
 
 .bt8-painel1 {
     background: url(../../02/img/bt_malcon.png) no-repeat;
-    width: 209px;
-    height: 288px;
+    width: 219px;
+    height: 296px;
     top: 738px;
     left: 989px;
 }
@@ -96,7 +96,7 @@ body {
 
 .bt10-painel1 {
     background: url(../../02/img/bt_quiz.png) no-repeat;
-    width: 254px;
+    width: 273px;
     height: 292px;
     top: 390px;
     left: 1265px;
@@ -564,8 +564,8 @@ body {
     }
 
     .bt8-painel1 {
-        width: 199px;
-        height: 274px;
+        width: 212px;
+        height: 287px;
         background: url(../../02/img/bt_malcon_mob.png) no-repeat;
     }
 
@@ -576,8 +576,8 @@ body {
     }
 
     .bt10-painel1 {
-        width: 242px;
-        height: 278px;
+        width: 265px;
+        height: 283px;
         background: url(../../02/img/bt_quiz_mob.png) no-repeat;
     }
 
@@ -696,8 +696,8 @@ body {
     }
 
     .bt8-painel1 {
-        width: 199px;
-        height: 274px;
+        width: 212px;
+        height: 287px;
         background: url(../../02/img/bt_malcon_mob.png) no-repeat;
     }
 
@@ -708,8 +708,8 @@ body {
     }
 
     .bt10-painel1 {
-        width: 242px;
-        height: 278px;
+        width: 265px;
+        height: 283px;
         background: url(../../02/img/bt_quiz_mob.png) no-repeat;
     }
 
