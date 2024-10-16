@@ -365,17 +365,17 @@ body {
 }
 
 .rellax-17 {
-    left: -470px;
+    left: -777px;
     top: 1080px;
 }
 
 .rellax-18 {
-    left: -470px;
+    left: -772px;
     top: 2177px;
 }
 
 .rellax-19 {
-    left: -470px;
+    left: -776px;
     top: 1530px;
 }
 
@@ -916,6 +916,23 @@ body {
 }
 
 /* FIM PAINEL CLICAVEL 4 */
+@media screen and (max-width:1920px) {
+    .rellax-17 {
+        left: -470px;
+        top: 1080px;
+    }
+
+    .rellax-18 {
+        left: -470px;
+        top: 2177px;
+    }
+
+    .rellax-19 {
+        left: -470px;
+        top: 1530px;
+    }
+}
+
 @media screen and (max-width:1440px) {
     .rellax {
         position: absolute;
