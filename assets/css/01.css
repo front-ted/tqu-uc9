@@ -558,6 +558,10 @@ footer {
     .bloco-paralax1 {
         height: 580px;
     }
+
+    .marcador2 li::before {
+        top: 50%;
+    }
 }
 
 @media screen and (max-width:767px) {
@@ -636,10 +640,6 @@ footer {
         z-index: 100;
     }
 
-    .marcador2 li::before {
-        top: 20%;
-    }
-
     .bt-painel3 {
         margin-bottom: 40px;
     }
@@ -661,6 +661,10 @@ footer {
         background: url(../../01/img/BG_mob_encerramento.jpg) no-repeat;
         background-size: cover;
         background-attachment: fixed;
+    }
+
+    .marcador2 li::before {
+        top: 50%;
     }
 }
 
