@@ -266,10 +266,8 @@ body {
     background: url(../../02/img/BG_papel.jpg);
     /* box-shadow: 4px 0 8px rgba(0, 0, 0, 0.3);
     filter: drop-shadow(4px 0 4px rgba(0, 0, 0, 0.3));  */
-    box-shadow: 4px 0 8px rgba(0, 0, 0, 0.3);
-    /* Sombra à direita */
-    filter: drop-shadow(4px 0 4px rgba(0, 0, 0, 0.3));
-    /* Sombra à direita */
+    /* box-shadow: -4px 0 8px rgba(0, 0, 0, 0.3) !important; 
+    filter: drop-shadow(-4px 0 4px rgba(0, 0, 0, 0.3)) !important; */
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 70px;
