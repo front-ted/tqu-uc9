@@ -649,16 +649,37 @@ footer {
     }
 
     .bloco-paralax3 {
-        height: 650px;
+        height: 675px;
     }
 
     .bloco-paralax1 {
-        height: 580px;
+        height: 615px;
     }
 
-    .bloco5, footer {
+    .bloco5,
+    footer {
         background: url(../../01/img/BG_mob_encerramento.jpg) no-repeat;
         background-size: cover;
         background-attachment: fixed;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .bloco-paralax3 {
+        height: 750px;
+    }
+
+    .bloco-paralax1 {
+        height: 680px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .bloco-paralax3 {
+        height: 850px;
+    }
+
+    .bloco-paralax1 {
+        height: 800px;
     }
 }
