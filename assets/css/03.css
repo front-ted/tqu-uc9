@@ -331,10 +331,6 @@ footer {
     background-position: bottom left;
 }
 
-.tabela1 .elipse {
-    top: 50%;
-}
-
 .table-responsive {
     position: relative;
     z-index: 1;
