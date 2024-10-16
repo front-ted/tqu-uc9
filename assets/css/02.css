@@ -318,7 +318,7 @@ body {
 
 @media screen and (max-width:1440px) {
     .bt-painel1 {
-        scale: 0.8;
+        scale: 0.8 !important;
     }
 
     .bt1-painel1 {
@@ -379,7 +379,8 @@ body {
 
 @media screen and (max-width:1400px) {
     .bt-painel1 {
-        scale: 0.95;
+        scale: 0.8 !important;
+        margin-top: -53px;
     }
 
     .bt1-painel1 {
@@ -440,7 +441,7 @@ body {
 
 @media screen and (max-width:1024px) {
     .bt-painel1 {
-        scale: 0.7;
+        margin-top: 0px;
     }
 
     .bt1-painel1 {
@@ -517,7 +518,7 @@ body {
 
     .bt-painel1 {
         position: unset;
-        scale: 1.1;
+        scale: 1.0 !important;
         margin: 10px;
     }
 
@@ -649,7 +650,7 @@ body {
 
     .bt-painel1 {
         position: unset;
-        scale: 1.1;
+        scale: 1.0 !important;
         margin: 10px;
     }
 

@@ -264,10 +264,12 @@ body {
 
 .pagina .container {
     background: url(../../02/img/BG_papel.jpg);
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    filter: drop-shadow(#000 0px 4px 4px); */
+    /* box-shadow: 4px 0 8px rgba(0, 0, 0, 0.3);
+    filter: drop-shadow(4px 0 4px rgba(0, 0, 0, 0.3));  */
     box-shadow: 4px 0 8px rgba(0, 0, 0, 0.3);
+    /* Sombra à direita */
     filter: drop-shadow(4px 0 4px rgba(0, 0, 0, 0.3));
+    /* Sombra à direita */
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 70px;
@@ -275,7 +277,6 @@ body {
     border-radius: 5px;
     max-width: 1011px;
     margin-bottom: -15px;
-    /* overflow-x: hidden; */
 }
 
 .faixa {
