@@ -1017,6 +1017,12 @@ body {
     }
 }
 
+@media screen and (max-width:900px) {
+    .elipse {
+        display: none;
+    }
+}
+
 @media screen and (max-width:768px) {
     .table-responsive {
         overflow-x: auto !important;

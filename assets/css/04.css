@@ -361,6 +361,12 @@ tr {
 }
 
 /* FIM CONTROLES CAROUSEL */
+@media screen and (max-width:900px) {
+    .elipse {
+        display: none;
+    }
+}
+
 @media screen and (max-width:768px) {
     .rellax-1 {
         display: none !important;
