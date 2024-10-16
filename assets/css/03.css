@@ -377,17 +377,17 @@ tr {
 }
 
 .rellax-2 {
-    left: -504px;
+    left: -803px;
     top: 10342px;
 }
 
 .rellax-3 {
-    right: -476px;
+    right: -802px;
     top: 14455px;
 }
 
 .rellax-4 {
-    left: -481px;
+    left: -805px;
     top: 17890px;
 }
 
@@ -471,6 +471,28 @@ tr {
 }
 
 /* FIM ALTERAÇÕES MODAIS */
+@media screen and (max-width:1920px) {
+    .rellax-1 {
+        right: -385px;
+        top: 860px;
+    }
+
+    .rellax-2 {
+        left: -504px;
+        top: 10342px;
+    }
+
+    .rellax-3 {
+        right: -476px;
+        top: 14455px;
+    }
+
+    .rellax-4 {
+        left: -481px;
+        top: 17890px;
+    }
+}
+
 @media screen and (max-width:1440px) {
     .rellax-1 {
         right: -224px;
