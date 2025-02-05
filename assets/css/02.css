@@ -34,40 +34,40 @@ body {
     background: url(../../02/img/bt_meg.png) no-repeat;
     width: 247px;
     height: 275px;
-    top: 325px;
-    left: 430px;
+    top: 170px;
+    left: 740px;
 }
 
 .bt3-painel1 {
     background: url(../../02/img/bt_wcm.png) no-repeat;
     width: 239px;
     height: 295px;
-    top: 690px;
-    left: 460px;
+    top: 95px;
+    left: 995px;
 }
 
 .bt4-painel1 {
     background: url(../../02/img/bt_ibero.png) no-repeat;
     width: 222px;
     height: 301px;
-    top: 170px;
-    left: 740px;
+    top: 85px;
+    left: 1311px;
 }
 
 .bt5-painel1 {
     background: url(../../02/img/bt_efqm.png) no-repeat;
     width: 235px;
     height: 293px;
-    top: 530px;
-    left: 745px;
+    top: 325px;
+    left: 430px;
 }
 
 .bt6-painel1 {
     background: url(../../02/img/bt_esg.png) no-repeat;
     width: 237px;
     height: 295px;
-    top: 95px;
-    left: 995px;
+    top: 530px;
+    left: 745px;
 }
 
 .bt7-painel1 {
@@ -82,24 +82,24 @@ body {
     background: url(../../02/img/bt_malcon.png) no-repeat;
     width: 219px;
     height: 296px;
-    top: 738px;
-    left: 989px;
+    top: 390px;
+    left: 1265px;
 }
 
 .bt9-painel1 {
     background: url(../../02/img/bt_modelos.png) no-repeat;
     width: 231px;
     height: 300px;
-    top: 85px;
-    left: 1311px;
+    top: 690px;
+    left: 460px;
 }
 
 .bt10-painel1 {
     background: url(../../02/img/bt_quiz.png) no-repeat;
     width: 273px;
     height: 292px;
-    top: 390px;
-    left: 1265px;
+    top: 738px;
+    left: 989px;
 }
 
 .bt11-painel1 {
@@ -209,28 +209,28 @@ body {
     }
 
     .bt2-painel1 {
+        top: 70px;
+        left: 990px;
+    }
+
+    .bt3-painel1 {
+        top: 64px;
+        left: 1363px;
+    }
+
+    .bt4-painel1 {
+        top: 59px;
+        left: 1782px; 
+    }
+
+    .bt5-painel1 {
         top: 302px;
         left: 619px;
     }
 
-    .bt3-painel1 {
-        top: 621px;
-        left: 660px;
-    }
-
-    .bt4-painel1 {
-        top: 119px;
-        left: 1030px;
-    }
-
-    .bt5-painel1 {
-        top: 466px;
-        left: 1030px;
-    }
-
     .bt6-painel1 {
-        top: 64px;
-        left: 1363px;
+        top: 415px;
+        left: 1030px;
     }
 
     .bt7-painel1 {
@@ -239,30 +239,30 @@ body {
     }
 
     .bt8-painel1 {
-        top: 665px;
-        left: 1359px;
-    }
-
-    .bt9-painel1 {
-        top: 59px;
-        left: 1782px;
-    }
-
-    .bt10-painel1 {
         top: 351px;
         left: 1725px;
     }
 
+    .bt9-painel1 {
+        top: 680px;
+        left: 835px;
+    }
+
+    .bt10-painel1 {
+        top: 700px;
+        left: 1185px;
+    }
+
     .bt11-painel1 {
-        top: 611px;
-        left: 1795px;
+        top: 690px;
+        left: 1570px;
     }
 }
 
 @media screen and (max-width:1920px) {
     .bt1-painel1 {
         top: 90px;
-        left: 370px;
+        left: 400px;
     }
 
     .bt-painel1 {
@@ -271,53 +271,53 @@ body {
     }
 
     .bt2-painel1 {
-        top: 325px;
-        left: 430px;
+        top: 88px;
+        left: 725px;
     }
 
     .bt3-painel1 {
-        top: 619px;
-        left: 460px;
-    }
-
-    .bt4-painel1 {
-        top: 170px;
-        left: 740px;
-    }
-
-    .bt5-painel1 {
-        top: 530px;
-        left: 745px;
-    }
-
-    .bt6-painel1 {
         top: 95px;
         left: 995px;
     }
 
+    .bt4-painel1 {
+        top: 85px;
+        left: 1250px;
+    }
+
+    .bt5-painel1 {
+        top: 285px;
+        left: 490px;
+    }
+
+    .bt6-painel1 {
+        top: 340px;
+        left: 745px;
+    }
+
     .bt7-painel1 {
-        top: 370px;
+        top: 350px;
         left: 1000px;
     }
 
     .bt8-painel1 {
-        top: 640px;
-        left: 989px;
-    }
-
-    .bt9-painel1 {
-        top: 85px;
-        left: 1311px;
-    }
-
-    .bt10-painel1 {
-        top: 390px;
+        top: 345px;
         left: 1265px;
     }
 
+    .bt9-painel1 {
+        top: 550px;
+        left: 660px;
+    }
+
+    .bt10-painel1 {
+        top: 585px;
+        left: 885px;
+    }
+
     .bt11-painel1 {
-        top: 638px;
-        left: 1320px;
+        top: 572px;
+        left: 1145px;
     }
 }
 
@@ -342,28 +342,28 @@ body {
     }
 
     .bt2-painel1 {
+        top: 40px;
+        left: 520px;
+    }
+
+    .bt3-painel1 {
+        top: 51px;
+        left: 722px;
+    }
+
+    .bt4-painel1 {
+        top: 31px;
+        left: 954px;
+    }
+
+    .bt5-painel1 {
         top: 221px;
         left: 294px;
     }
 
-    .bt3-painel1 {
-        top: 503px;
-        left: 312px;
-    }
-
-    .bt4-painel1 {
-        top: 100px;
-        left: 526px;
-    }
-
-    .bt5-painel1 {
-        top: 383px;
-        left: 528px;
-    }
-
     .bt6-painel1 {
-        top: 51px;
-        left: 722px;
+        top: 276px;
+        left: 502px;
     }
 
     .bt7-painel1 {
@@ -372,23 +372,23 @@ body {
     }
 
     .bt8-painel1 {
-        top: 545px;
-        left: 726px;
+        top: 280px;
+        left: 917px;
     }
 
     .bt9-painel1 {
-        top: 31px;
-        left: 954px;
+        top: 515px;
+        left: 365px;
     }
 
     .bt10-painel1 {
-        top: 269px;
-        left: 916px;
+        top: 550px;
+        left: 615px;
     }
 
     .bt11-painel1 {
-        top: 506px;
-        left: 962px;
+        top: 540px;
+        left: 905px;
     }
 }
 
@@ -405,28 +405,28 @@ body {
     }
 
     .bt2-painel1 {
-        top: 310px;
-        left: 275px;
-    }
-
-    .bt3-painel1 {
-        top: 670px;
-        left: 310px;
-    }
-
-    .bt4-painel1 {
         top: 160px;
         left: 510px;
     }
 
+    .bt3-painel1 {
+        top: 90px;
+        left: 705px;
+    }
+
+    .bt4-painel1 {
+        top: 80px;
+        left: 925px;
+    }
+
     .bt5-painel1 {
-        top: 505px;
-        left: 515px;
+        top: 310px;
+        left: 275px;
     }
 
     .bt6-painel1 {
-        top: 90px;
-        left: 705px;
+        top: 505px;
+        left: 515px;
     }
 
     .bt7-painel1 {
@@ -435,18 +435,18 @@ body {
     }
 
     .bt8-painel1 {
-        top: 720px;
-        left: 705px;
+        top: 380px;
+        left: 900px;
     }
 
     .bt9-painel1 {
-        top: 80px;
-        left: 925px;
+        top: 670px;
+        left: 310px;
     }
 
     .bt10-painel1 {
-        top: 380px;
-        left: 900px;
+        top: 720px;
+        left: 705px;
     }
 
     .bt11-painel1 {
@@ -462,7 +462,7 @@ body {
         margin-left: -37px;
     }
 
-    .bt3-painel1 {
+    .bt9-painel1 {
         top: 500px;
         left: 310px;
     }
@@ -472,7 +472,7 @@ body {
         left: 700px;
     }
 
-    .bt8-painel1 {
+    .bt10-painel1 {
         top: 490px;
         left: 705px;
     }
@@ -482,7 +482,7 @@ body {
         left: 900px;
     }
 
-    .bt5-painel1 {
+    .bt6-painel1 {
         top: 404px;
         left: 515px;
     }
@@ -514,29 +514,28 @@ body {
     }
 
     .bt2-painel1 {
-        top: 215px;
-        left: 176px;
-
+        top: 40px;
+        left: 325px;
     }
 
     .bt3-painel1 {
-        top: 410px;
-        left: 193px;
+        top: 32px;
+        left: 500px;
     }
 
     .bt4-painel1 {
-        top: 96px;
-        left: 341px;
+        top: 27px;
+        left: 675px;
     }
 
     .bt5-painel1 {
-        top: 336px;
-        left: 345px;
+        top: 215px;
+        left: 150px;
     }
 
     .bt6-painel1 {
-        top: 32px;
-        left: 483px;
+        top: 250px;
+        left: 315px;
     }
 
     .bt7-painel1 {
@@ -545,23 +544,23 @@ body {
     }
 
     .bt8-painel1 {
-        top: 425px;
-        left: 483px;
-    }
-
-    .bt9-painel1 {
-        top: 27px;
-        left: 641px;
-    }
-
-    .bt10-painel1 {
         top: 262px;
         left: 628px;
     }
 
+    .bt9-painel1 {
+        top: 410px;
+        left: 193px;
+    }
+
+    .bt10-painel1 {
+        top: 448px;
+        left: 380px;
+    }
+
     .bt11-painel1 {
-        top: 425px;
-        left: 651px;
+        top: 437px;
+        left: 626px;    
     }
 }
 
