@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SenacRS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <audio id="click-sound" src="sounds/click-sound.mp3" preload="auto"></audio>
+    <div id="unityContainer">
+        <button class="fullscreen-btn" onclick="toggleFullscreen()">
+            <img src="image/zoom-in.png" alt="Fullscreen Toggle" id="fullscreen-icon">
+        </button>
+        <canvas id="unityCanvas"></canvas>
+        <div class="loadingContainer" id="loadingBar">
+            <div class="progress-bar">
+                <div class="filler" id="progressFiller"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="menu-panel">
+        <button id="acromatopsia" onclick="applyFilter('grayscale')">Acromatopsia</button>
+        <button id="protanomalia" onclick="applyFilter('protanopia')">Protanomalia</button>
+        <button id="deuteranomalia" onclick="applyFilter('deuteranopia')">Deuteranomalia</button>
+        <button id="tritanomalia" onclick="applyFilter('tritanopia')">Tritanomalia</button>
+        <button id="normal" onclick="applyFilter('normal')">Sem Daltonismo</button>
+    </div>
+    <button id="menu"></button>
+    
+    <svg width="0" height="0">
+        <defs>
+            <filter id="deuteranopia">
+                <feColorMatrix type="matrix" values="
+                    0.625, 0.375, 0, 0, 0,
+                    0.7, 0.3, 0, 0, 0,
+                    0, 0.3, 0.7, 0, 0,
+                    0, 0, 0, 1, 0
+                " />
+            </filter>
+            <filter id="protanopia">
+                <feColorMatrix type="matrix" values="
+                    0.567, 0.433, 0, 0, 0,
+                    0.558, 0.442, 0, 0, 0,
+                    0, 0.242, 0.758, 0, 0,
+                    0, 0, 0, 1, 0
+                " />
+            </filter>
+            <filter id="tritanopia">
+                <feColorMatrix type="matrix" values="
+                    0.95, 0.05, 0, 0, 0,
+                    0, 0.433, 0.567, 0, 0,
+                    0, 0.475, 0.525, 0, 0,
+                    0, 0, 0, 1, 0
+                " />
+            </filter>
+        </defs>
+    </svg>
+
+    <script src="Build/Build.loader.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
